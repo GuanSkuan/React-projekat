@@ -1,15 +1,15 @@
 function Header() {
     return(
         <header>
-            <h1>Sajt recepti</h1>
             <nav>
                 <ul>
-                    <li>home</li>
-                    <li>aob</li>
-                    <li>asdasd</li>
-                    <li>asdasdsd</li>
+                    <li><a href="">Početna</a></li>
+                    <li><a href="">Recepti</a></li>
+                    <li><a href="">Saveti</a></li>
+                    <li><a href="">O nama</a></li>
                 </ul>
             </nav>
+            <h1>DOBRODOŠLI</h1>
         </header>
     );
 }
