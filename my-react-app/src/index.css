@@ -37,6 +37,7 @@ header a {
   width: 10vw;
   height: 5vh;
   transition: 0.4s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 header a:hover {
@@ -46,7 +47,7 @@ header a:hover {
 
 /*NASLOV*/
 
-header h1 {
+h1 {
   display: flex;
   justify-content: center;
   font-weight: bold;
@@ -55,7 +56,7 @@ header h1 {
   background-size: 200%; 
   color: white;
   border-radius: 100px;
-  margin: 0;
+  margin: 0 3%;
   padding: 0;
   animation: gradient-slide 3s linear infinite;
 }
@@ -75,40 +76,130 @@ header h1 {
 /*UVODNE SLIKE*/
 
 .kontejner-krugova {
-  display: flex;
-  justify-content: center;
   position: relative;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f7d7dc);
   height: 100vh;
   width: 100vw;
-  
+  z-index: 100;
+}
+
+.krug img {
+  position: absolute;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.krug:hover img {
+  transform: scale(1.1);
 }
 
 .krug[data-id="0"] img {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  width: 50vh;
-  height: 50vh;
-  object-fit: cover;
-  border-radius: 50%;
+  bottom: 10%;
+  left: 5%;
+  width: 35vw;
+  height: 35vw;
 }
 
 .krug[data-id="1"] img{
-  position: absolute;
-  bottom: 10%;
-  right: 10%;
+  top: 5%;
+  left: 46%;
   width: 30vh;
   height: 30vh;
-  object-fit: cover;
-  border-radius: 50%;}
+}
 
 .krug[data-id="2"] img{
-  position: absolute;
   top: 10%;
-  right: 10%;
-  width: 30vh;
-  height: 30vh;
-  object-fit: cover;
-  border-radius: 50%;
+  right: 5%;
+  width: 30vw;
+  height: 30vw;
+}
+
+.krug[data-id="3"] img{
+  bottom: 5%;
+  left: 44%;
+  width: 40vh;
+  height: 40vh;
+}
+
+.krug p {
+  position: absolute;
+  color: #00000075;
+}
+
+.krug[data-id="0"] p {
+  left: 35%;
+}
+
+.krug[data-id="1"] p {
+  bottom: 5%;
+  right: 19%;
+}
+
+.krug[data-id="2"] p {
+  top: 36%;
+  left: 45%;
+}
+
+.krug[data-id="3"] p {
+  right: 25%;
+}
+
+.linija {
+  position: absolute;
+  height: 1px;
+  background-color: #00000075;
+  z-index: -1;
+}
+
+.linija-0 {
+  top: 20%;
+  left: 24%;
+  width: 15vw;
+  transform: rotate(-65deg);
+}
+
+.linija-1 {
+  bottom: 13%;
+  left: 56%;
+  width: 20vw;
+  transform: rotate(10deg);
+}
+
+.linija-2 {
+  top: 45%;
+  right: 30.5%;
+  width: 20vw;
+  transform: rotate(10deg);
+}
+
+.linija-3 {
+  top: 9%;
+  right: 30%;
+  width: 20vw;
+  transform: rotate(-10deg);
+}
+
+/*UVODNI TEKST*/
+
+.uvodni-deo {
+  background-color: #f7d7dc;
+  padding: 20px 0;
+}
+
+.uvodni-tekst {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #00000089;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 100px;
+  margin: 0 20%;
+  padding: 10px 5%;
+}
+
+.preview-deo {
+  background-color: #f7d7dc;
 }
