@@ -1,8 +1,13 @@
 import Header from "./Header"
+import Uvod from "./Uvod";
 
 function App() {
   return(
-    <Header></Header>
+    <>
+      <Header />
+      <Uvod />
+    </>
+
   );
 }
 

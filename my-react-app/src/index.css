@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2;
+  background-color: #d0ecef;
 }
 
 /*NAVIGACIJA*/
@@ -18,8 +18,12 @@ header ul {
   list-style: none; 
   margin: 0;
   padding: 1vh 0; /*top i bottom je prvi broj, left i right je drugi*/
-  background-color: #d0ecef;
   transition: 0.4s;
+  border-radius: 100px;
+}
+
+header ul:hover {
+  background-color: #f7d7dc;
 }
 
 header a {
@@ -40,10 +44,6 @@ header a:hover {
   background-color: #39d8d6;
 }
 
-header ul:hover {
-  background-color: #f7d7dc;
-}
-
 /*NASLOV*/
 
 header h1 {
@@ -54,6 +54,7 @@ header h1 {
   background: linear-gradient(to right, #e22030, #00aeac);
   background-size: 200%; 
   color: white;
+  border-radius: 100px;
   margin: 0;
   padding: 0;
   animation: gradient-slide 3s linear infinite;
@@ -69,4 +70,45 @@ header h1 {
   100% {
     background-position: 0%;
   }
+}
+
+/*UVODNE SLIKE*/
+
+.kontejner-krugova {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f7d7dc);
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+.krug[data-id="0"] img {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 50vh;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.krug[data-id="1"] img{
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  width: 30vh;
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 50%;}
+
+.krug[data-id="2"] img{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 30vh;
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 50%;
 }
