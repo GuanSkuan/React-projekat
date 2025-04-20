@@ -1,12 +1,14 @@
-import prva from './images/uvodna1.jpg'
-import druga from './images/uvodna2.jpg'
+import dorucak from './images/uvodna1.jpg'
+import rucak from './images/uvodna2.jpg'
+import vecera from './images/vecera.jpg'
+import dezert from './images/dezert.jpg'
 
 function Uvod() {
     const krugovi = [
-        {slika: prva, text: "-Doručak-"},
-        {slika: prva, text: "-Večera-"},
-        {slika: druga, text: "-Ručak-"},
-        {slika: druga, text: "-Dezert-"},
+        {slika: dorucak, text: "-Doručak-"},
+        {slika: dezert, text: "-Večera-"},
+        {slika: rucak, text: "-Ručak-"},
+        {slika: vecera, text: "-Dezert-"},
     ]
 
     return(
@@ -22,12 +24,12 @@ function Uvod() {
             </section>
             <section className='uvodni-deo'>
                 <p className='uvodni-tekst'>
-                Na ovom sajtu pronaći ćete veliki broj recepata – od brzih obroka za radne dane,
-                do specijaliteta koji će oduševiti goste. Pored klasične pretrage recepata po nazivima i
-                kategorijama, nudimo vam i jedinstvenu mogućnost da unesete sastojke koje imate kod kuće,
-                a naš sistem će vam odmah predložiti recepte koji ih sadrže. Bilo da ste početnik
-                u kuhinji ili iskusni kuvar u potrazi za inspiracijom, ovde ćete pronaći praktične savete,
-                korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu. Prijatno kuvanje!
+                    Na ovom sajtu pronaći ćete veliki broj recepata – od brzih obroka za radne dane,
+                    do specijaliteta koji će oduševiti goste. Pored klasične pretrage recepata po nazivima i
+                    kategorijama, nudimo vam i jedinstvenu mogućnost da unesete sastojke koje imate kod kuće,
+                    a naš sistem će vam odmah predložiti recepte koji ih sadrže. Bilo da ste početnik
+                    u kuhinji ili iskusni kuvar u potrazi za inspiracijom, ovde ćete pronaći praktične savete,
+                    korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu. Prijatno kuvanje!
                 </p>
             </section>
          </>

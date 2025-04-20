@@ -17,7 +17,7 @@ header ul {
   justify-content: space-evenly;
   list-style: none; 
   margin: 0;
-  padding: 1vh 0; /*top i bottom je prvi broj, left i right je drugi*/
+  padding: 2vh 0; /*top i bottom je prvi broj, left i right je drugi*/
   transition: 0.4s;
   border-radius: 100px;
 }
@@ -57,6 +57,7 @@ h1 {
   color: white;
   border-radius: 100px;
   margin: 0 3%;
+  margin-bottom: 2%;
   padding: 0;
   animation: gradient-slide 3s linear infinite;
 }
@@ -126,6 +127,7 @@ h1 {
 .krug p {
   position: absolute;
   color: #00000075;
+  pointer-events: none;
 }
 
 .krug[data-id="0"] p {
@@ -151,6 +153,7 @@ h1 {
   height: 1px;
   background-color: #00000075;
   z-index: -1;
+  pointer-events: none;
 }
 
 .linija-0 {
@@ -185,7 +188,7 @@ h1 {
 
 .uvodni-deo {
   background-color: #f7d7dc;
-  padding: 20px 0;
+  padding: 2% 0;
 }
 
 .uvodni-tekst {
@@ -200,6 +203,13 @@ h1 {
   padding: 10px 5%;
 }
 
+/*RECEPTI - PREVIEW*/
+
 .preview-deo {
   background-color: #f7d7dc;
+  padding-bottom: 2%;
+}
+
+.crvena-plava {
+  background: linear-gradient(to bottom, #f7d7dc, rgba(0, 0, 0, 0));
 }
