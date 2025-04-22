@@ -207,9 +207,83 @@ h1 {
 
 .preview-deo {
   background-color: #f7d7dc;
-  padding-bottom: 2%;
+}
+
+.preview-deo h2 {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 2%;
 }
 
 .crvena-plava {
+  padding: 2% 0;
   background: linear-gradient(to bottom, #f7d7dc, rgba(0, 0, 0, 0));
+}
+
+.pilula {
+  position: relative;
+  color: #00000089;
+  background-color: #f7f7f7;
+  width: 90vw;
+  height: 60vh;
+  margin: auto;
+  border-radius: 1000px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
+  transition: transform 0.3s ease;
+}
+
+.pilula img {
+  top: 4vh;
+  left: 4vh;
+  object-fit: cover;
+  position: absolute;
+  width: 52vh;
+  height: 52vh;
+  border-radius: 50%;
+  transition: transform 0.4s ease;
+}
+
+.pilula h2 {
+  display: flex;
+  position: absolute;
+  font-size: 3rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  right: 5%;
+  left: 40%;
+  height: 100%;
+  margin: 0;
+  transition: opacity 0.3s ease;
+}
+
+.pilula p {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  right: 40%;
+  left: 10%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.pilula:hover {
+  transform: scale(1.1);
+}
+
+.pilula:hover img {
+  transform: translateX(262%);
+}
+
+.pilula:hover h2 {
+  opacity: 0;
+}
+
+.pilula:hover p {
+  opacity: 1;
 }

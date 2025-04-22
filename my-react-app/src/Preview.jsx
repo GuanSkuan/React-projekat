@@ -1,3 +1,5 @@
+import rucakk from './images/uvodna2.jpg'
+
 function Preview() {
     const pilule = [
         
@@ -15,14 +17,14 @@ function Preview() {
                     u kuhinji ili iskusni kuvar u potrazi za inspiracijom, ovde ćete pronaći praktične savete,
                     korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu. Prijatno kuvanje!
                 </p>                
-
+                <h2>-Neki od mnogobrojnih recepata-</h2>
             </section>
 
             <section className="crvena-plava">
                 <div className="pilula">
-                    <img src="" alt="" />
-                    <h2>BOGUS</h2>
-                    <p>bogus</p>
+                    <img src={rucakk} alt="gratauu" />
+                    <h2>BOGUS SA MNOGO BOGUSA UNUTRA</h2>
+                    <p>bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus </p>
                 </div>
             </section>      
         </>
