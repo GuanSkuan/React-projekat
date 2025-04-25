@@ -216,9 +216,14 @@ h1 {
 }
 
 .crvena-plava {
+  display: grid;
+  flex-direction: column;
   padding: 2% 0;
+  gap: 5%;
   background: linear-gradient(to bottom, #f7d7dc, rgba(0, 0, 0, 0));
 }
+
+/*PILULE*/
 
 .pilula {
   position: relative;

@@ -14,16 +14,16 @@ function Uvod() {
     return(
          <>
            <section className='kontejner-krugova'>
-                {krugovi.map((krug, index) =>(
-                    <div key={index} className='krug' data-id={index}>
-                        <img src={krug.slika} alt={"Slika ${index}"}/>
-                        <div className={`linija linija-${index}`}></div>
-                        <p>{krug.text}</p>
-                    </div>
+                {krugovi.map((krug, index) => (
+                        <div key={index} className='krug' data-id={index} >
+                            <img src={krug.slika} alt={"Slika ${index}"}/>
+                            <div className={`linija linija-${index}`}></div>
+                            <p>{krug.text}</p>
+                        </div>
                 ))}
             </section>
             <section className='uvodni-deo'>
-                <p className='uvodni-tekst'>
+                <p className='uvodni-tekst' data-aos="fade-left">
                     Na ovom sajtu pronaći ćete veliki broj recepata – od brzih obroka za radne dane,
                     do specijaliteta koji će oduševiti goste. Pored klasične pretrage recepata po nazivima i
                     kategorijama, nudimo vam i jedinstvenu mogućnost da unesete sastojke koje imate kod kuće,

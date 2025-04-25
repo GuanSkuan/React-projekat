@@ -1,7 +1,7 @@
 function Header() {
     return(
         <header>
-            <nav>
+            <nav data-aos="fade-down">
                 <ul>
                     <li><a href="">-Početna-</a></li>
                     <li><a href="">-Recepti-</a></li>
