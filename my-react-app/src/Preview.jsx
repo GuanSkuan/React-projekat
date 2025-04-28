@@ -51,7 +51,7 @@ function Preview() {
                         </div>
                     )
                 })}
-                <button>-Pogledaj sve-</button>
+                <button>-Pogledaj sve-</button> 
             </section>      
         </>
     );

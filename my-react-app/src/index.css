@@ -225,7 +225,8 @@ h2 {
 
 
 .crvena-plava {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   padding: 2% 0;
   gap: 5%;
   background: linear-gradient(to bottom, #f7d7dc, rgba(0, 0, 0, 0));
@@ -348,3 +349,4 @@ footer div {
   right: 5%;
   color: #656565;
 }
+
