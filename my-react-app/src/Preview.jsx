@@ -2,6 +2,7 @@ import rucakk from './images/uvodna2.jpg'
 import slikatest from './images/uvodna1.jpg'
 import random from './images/dezert.jpg'
 function Preview() {
+    
     const pilule = [
         {
             slika: rucakk,
@@ -41,19 +42,18 @@ function Preview() {
                     const vrstaAnimacije = index % 2 === 0 ? "fade-right" : "fade-left";
                 
                     return(
-                        <div data-aos={vrstaAnimacije}>  {/*dodat div jer AOS unistava scale iz nekog razloga ako se ne odradi ovako*/}
-                            <div key={index} className="pilula">
-                                <img src={pilule.slika} alt="Slika ${index}" />
-                                <h2>{pilule.naslov}</h2>
+                        <div key={index} data-aos={vrstaAnimacije}>  {/*dodat div jer AOS unistava scale iz nekog razloga ako se ne odradi ovako*/}
+                            <div className="pilula">
+                                <img src={pilule.slika} alt='Slika ${index}' />
+                                <h3>{pilule.naslov}</h3>
                                 <p>{pilule.opis}</p>
                             </div>
                         </div>
                     )
                 })}
-
+                <button>-Pogledaj sve-</button>
             </section>      
         </>
-      
     );
 }
 

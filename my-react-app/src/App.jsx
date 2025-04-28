@@ -3,8 +3,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Header from "./Header"
-import Preview from "./Preview";
 import Uvod from "./Uvod";
+import Preview from "./Preview";
+import Footer from "./Footer";
 
 function App() {
 
@@ -20,8 +21,8 @@ function App() {
       <Header/>
       <Uvod/>
       <Preview/>
+      <Footer/>
     </>
-
   );
 }
 

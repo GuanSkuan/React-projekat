@@ -4,7 +4,7 @@
   font-weight: 400;
 }
 
-body {
+body { 
   margin: 0;
   padding: 0;
   background-color: #d0ecef;
@@ -62,6 +62,20 @@ h1 {
   animation: gradient-slide 3s linear infinite;
 }
 
+h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  background: linear-gradient(to right, #e22030, #00aeac);
+  background-size: 200%; 
+  color: white;
+  border-radius: 100px;
+  text-align: center;
+  width: 50vw;
+  margin: 2% auto 0; /*prva top, druga left right, treca bottom*/
+  animation: gradient-slide 3s linear infinite;
+}
+
 @keyframes gradient-slide {
   0% {
     background-position: 0%; /* Početak */
@@ -73,7 +87,6 @@ h1 {
     background-position: 0%;
   }
 }
-
 /*UVODNE SLIKE*/
 
 .kontejner-krugova {
@@ -209,15 +222,10 @@ h1 {
   background-color: #f7d7dc;
 }
 
-.preview-deo h2 {
-  text-align: center;
-  margin-bottom: 0;
-  margin-top: 2%;
-}
+
 
 .crvena-plava {
   display: grid;
-  flex-direction: column;
   padding: 2% 0;
   gap: 5%;
   background: linear-gradient(to bottom, #f7d7dc, rgba(0, 0, 0, 0));
@@ -248,7 +256,7 @@ h1 {
   transition: transform 0.4s ease;
 }
 
-.pilula h2 {
+.pilula h3 {
   display: flex;
   position: absolute;
   font-size: 3rem;
@@ -285,10 +293,58 @@ h1 {
   transform: translateX(262%);
 }
 
-.pilula:hover h2 {
+.pilula:hover h3 {
   opacity: 0;
 }
 
 .pilula:hover p {
   opacity: 1;
+}
+
+/*DUGME ZA GALERIJU*/
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  background-color: #eb949e;
+  border: none;
+  border-radius: 100px;
+  width: 10vw;
+  height: 5vh;
+  margin: 0 auto;
+  transition: 0.4s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  width: 20vw;
+  background-color: #39d8d6;
+}
+
+/*FOOTER*/
+
+.kraj {
+  margin-top: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  margin: 2%;
+  margin-top: auto;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 1000px;
+}
+
+footer div {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  color: #656565;
 }
