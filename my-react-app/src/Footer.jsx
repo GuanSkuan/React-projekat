@@ -2,33 +2,32 @@ function Footer() {
     return(
         <section className="kraj">
             <footer>
-                <ul>
-                    <li>gogogo</li>
-                    <li>wiwiwiwiwi</li>
-                    <li>ahdoiuh</li>
-                    <li>fff</li>
-                    <li>ahdoiuh</li>
-                    <li>fff</li>
+                <ul className="prva-vrsta">
+                    <li><a href="">gogogo</a></li>
+                    <li><a href="">wiwiwiwiwi</a></li>
+                    <li><a href="">ahdoiuh</a></li>
+                    <li><a href="">fff</a></li>
+                    <li><a href="">ahdoiuh</a></li>
+                    <li><a href="">fff</a></li>
                 </ul>
-                <ul>
-                    <li>gogogo</li>
-                    <li>wiwiwiwiwi</li>
-                    <li>ahdoiuh</li>
-                    <li>fff</li>
+                <ul className="druga-vrsta">
+                    <li><a href="">gogogo</a></li>
+                    <li><a href="">wiwiwiwiwi</a></li>
+                    <li><a href="">ahdoiuh</a></li>
                 </ul>
-                <ul>
-                    <li>gogogo</li>
-                    <li>wiwiwiwiwi</li>
-                    <li>ahdoiuh</li>
-                    <li>fff</li>
-                    <li>ahdoiuh</li>
-                    <li>fff</li>
+                <ul className="prva-vrsta">
+                    <li><a href="">gogogo</a></li>
+                    <li><a href="">wiwiwiwiwi</a></li>
+                    <li><a href="">ahdoiuh</a></li>
+                    <li><a href="">fff</a></li>
+                    <li><a href="">ahdoiuh</a></li>
+                    <li><a href="">fff</a></li>
                 </ul>
-                            <ul>
-                    <li>gogogo</li>
-                    <li>wiwiwiwiwi</li>
-                    <li>ahdoiuh</li>
-                    <li>fff</li>
+                <ul className="druga-vrsta">
+                    <li><a href="">gogogo</a></li>
+                    <li><a href="">wiwiwiwiwi</a></li>
+                    <li><a href="">ahdoiuh</a></li>
+                    <li><a href="">fff</a></li>
                 </ul>
                 <div>&copy; {new Date().getFullYear()} NomNomNomNom</div>
             </footer>

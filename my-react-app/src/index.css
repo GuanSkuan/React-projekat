@@ -42,7 +42,7 @@ header a {
 
 header a:hover {
   width: 20vw;
-  background-color: #39d8d6;
+  background-color: #68d3d1;
 }
 
 /*NASLOV*/
@@ -228,7 +228,7 @@ h2 {
   display: flex;
   flex-direction: column;
   padding: 2% 0;
-  gap: 5%;
+  gap: 10vh;
   background: linear-gradient(to bottom, #f7d7dc, rgba(0, 0, 0, 0));
 }
 
@@ -291,7 +291,7 @@ h2 {
 }
 
 .pilula:hover img {
-  transform: translateX(262%);
+  transform: translateX(261%);
 }
 
 .pilula:hover h3 {
@@ -315,7 +315,7 @@ button {
   border: none;
   border-radius: 100px;
   width: 10vw;
-  height: 5vh;
+  height: 7vh;
   margin: 0 auto;
   transition: 0.4s;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -323,14 +323,10 @@ button {
 
 button:hover {
   width: 20vw;
-  background-color: #39d8d6;
+  background-color: #68d3d1;
 }
 
 /*FOOTER*/
-
-.kraj {
-  margin-top: auto;
-}
 
 footer {
   display: flex;
@@ -341,6 +337,40 @@ footer {
   background-color: #f7f7f7;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   border-radius: 1000px;
+  transition: 0.3s;
+}
+
+footer:hover {
+  transform: scale(1.03);
+}
+
+footer ul {
+  list-style: none;
+  line-height: 2.2;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #656565;
+  border-radius: 100px;
+  transition: 0.3s;
+  width: 10vw;
+}
+
+footer .prva-vrsta a:hover {
+  color: white;
+  background-color: #eb949e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer .druga-vrsta a:hover {
+  color: white;
+  background-color: #68d3d1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 footer div {
@@ -349,4 +379,3 @@ footer div {
   right: 5%;
   color: #656565;
 }
-
