@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import Header from "./Header"
 import Uvod from "./Uvod";
 import Preview from "./Preview";
+import Preview2 from "./Preview2";
 import Footer from "./Footer";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Header/>
       <Uvod/>
       <Preview/>
+      <Preview2/>
       <Footer/>
     </>
   );
