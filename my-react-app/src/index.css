@@ -328,13 +328,16 @@ button:hover {
 
 /*FOOTER*/
 
+.kraj {
+  background-color: #f7d7dc;
+  padding: 2%;
+}
+
 footer {
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  margin: 2%;
-  margin-top: auto;
-  background-color: #f7f7f7;
+  background-color: #434343;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   border-radius: 1000px;
   transition: 0.3s;
@@ -355,14 +358,13 @@ footer a {
   align-items: center;
   font-size: 1.1rem;
   text-decoration: none;
-  color: #656565;
+  color: white;
   border-radius: 100px;
   transition: 0.3s;
   width: 10vw;
 }
 
 footer .prva-vrsta a:hover {
-  color: white;
   background-color: #eb949e;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -376,7 +378,83 @@ footer .druga-vrsta a:hover {
 footer div {
   position: absolute;
   bottom: 10%;
-  right: 5%;
-  color: #656565;
+  right: 10%;
+  color: #828282;
 }
 
+/*DEO ZA SAVETE*/
+
+.plava {
+  padding-top: 2%;
+}
+
+.plava h1 {
+  position: relative;
+  z-index: 1;
+}
+
+.plava-crvena {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f7d7dc);
+}
+
+.saveti-deo {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 0;
+  gap: 10vh;
+}
+
+.pravougaonik {
+  display: flex;
+  color: #00000089;
+  background-color: transparent;
+  width: 90vw;
+  height: 60vh;
+  margin: 0 auto;
+  transition: 0.3s ease;
+}
+
+.pravougaonik:hover {
+  transform: scale(1.05);
+}
+
+.pravougaonik img {
+  object-fit: cover;
+  width: 60vh;
+  height: 60vh;
+  border-radius: 100px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
+}
+
+.pravougaonik-tekst {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #f7f7f7;
+  border-radius: 100px;
+  padding: 3% 5%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
+}
+
+.pravougaonik-tekst h3 {
+  display: flex;
+  flex: 0.2;
+  justify-content: center;
+  font-size: 2rem;
+  text-align: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.pravougaonik-tekst p {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 1.2rem;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

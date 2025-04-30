@@ -51,10 +51,11 @@ function Preview() {
                         </div>
                     )
                 })}
-                <div data-aos="fade-up">
-                    <button>-Pogledaj sve-</button> 
-                </div>
-            </section>      
+            </section>
+
+            <div className='' data-aos="fade-up">
+                <button>-Pogledaj sve-</button> 
+            </div>                 
         </>
     );
 }
