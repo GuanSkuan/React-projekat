@@ -414,6 +414,10 @@ footer div {
   transition: 0.3s ease;
 }
 
+.pravougaonik:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
 .pravougaonik:hover {
   transform: scale(1.05);
 }

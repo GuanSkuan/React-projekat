@@ -39,17 +39,20 @@ function Preview2() {
 
             <section className='plava-crvena'>
                 <div className="saveti-deo">
-                    {saveti.map((saveti, index) => (
-                        <div key={index}>
-                            <div className="pravougaonik">
-                                <img src={saveti.slika} alt='Slika ${index}' data-aos="fade-right"/>
-                                <div className='pravougaonik-tekst' data-aos="fade-left">
+                    {saveti.map((saveti, index) => {
+                        const animacija1 = index % 2 === 0 ? "fade-right" : "fade-left";
+                        const animacija2 = index % 2 === 0 ? "fade-left" : "fade-right";
+
+                        return(
+                            <div className="pravougaonik" key={index}>
+                                <img src={saveti.slika} alt={'Slika ${index}'} data-aos={animacija1}/>
+                                <div className='pravougaonik-tekst' data-aos={animacija2}>
                                     <h3>{saveti.naslov}</h3>
                                     <p>{saveti.opis}</p>                                    
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        )
+                    })}
                 </div>
                 <div data-aos="fade-up">
                     <button>-Pogledaj sve-</button> 
