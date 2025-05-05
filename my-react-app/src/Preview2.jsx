@@ -1,24 +1,24 @@
-import savet1 from './images/pasta.jpg'
-import savet2 from './images/noz.jpg'
-import savet3 from './images/beli luk.jpg'
+import pasta from './images/pasta.jpg'
+import seckanje from './images/seckanje.jpg'
+import beliLuk from './images/beli luk.jpg'
 
 function Preview2() {
 
     const saveti = [
         {
-            slika: savet1,
-            naslov: "-NEKI SAVET-",
-            opis: "Na ovom sajtu pronaći ćete veliki broj recepata – od brzih obroka za radne dane Na ovom sajtu pronaći ćete veliki broj recepata – od brzih obroka za radne dane Na ovom sajtu pronaći ćete veliki broj recepata – od brzih obroka za radne dane Na ovom sajtu pronaći ćete veliki broj recepata – od brzih obroka za radne dane"
+            slika: pasta,
+            naslov: "-TESTENINA-",
+            opis: "Kada skuvaš makarone i procediš ih, nemoj ih ispirati pod mlazom vode, čak i ako ti se čini da su lepljive. Voda spira skrob koji se prirodno oslobađa iz testenine tokom kuvanja. Taj skrob zapravo pomaže da se sos bolje zalepi za makarone i da se ukusi sjedine. Ako ih ispereš, sos će kliziti sa testenine i ukus jela će biti slabiji. Umesto toga, samo ih procedi i odmah ih pomešaj sa toplim sosom. Po želji možeš da dodaš i malo vode u kojoj su se kuvale makarone – ona je puna skroba i odlična je za „vezivanje” sosa."
         },
         {
-            slika: savet2,
-            naslov: "-NEKI SAVET-",
-            opis: "Bilo da ste početniku kuhinji ili iskusni kuvar u potrazi za inspiracijom, ovde ćete pronaći praktične savete, korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu. Prijatno kuvanje! korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu. Prijatno kuvanje! korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu. Prijatno kuvanje! korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu. Prijatno kuvanje! korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu. Prijatno kuvanje!"
+            slika: seckanje,
+            naslov: "-SECKANJE-",
+            opis: "Većina ljudi instinktivno drži nož samo za dršku, ali profesionalni kuvari znaju da je mnogo bolje uhvatiti nož bliže oštrici. Palac i kažiprst treba da obuhvate bazu sečiva, s bočnih strana, dok ostatak prstiju drži dršku. Ovakav hvat ti daje mnogo veću kontrolu nad nožem i preciznost prilikom seckanja. Osim toga, ruka se manje zamara, a šanse da se posečeš su manje, jer se nož ponaša stabilnije. Ako još koristiš tzv. „kandža” tehniku sa drugom rukom – gde prste saviješ unazad – seckanje postaje brzo, precizno i bezbedno."
         },
         {
-            slika: savet3,
-            naslov: "-NEKI SAVET-",
-            opis: "Bilo da ste početniku kuhinji ili iskusni kuvar u potrazi za inspiracijom, ovde ćete pronaći praktične savete, korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu. Prijatno kuvanje! korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu. Prijatno kuvanje! korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu. Prijatno kuvanje! korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu."
+            slika: beliLuk,
+            naslov: "-BELI LUK-",
+            opis: "Pre nego što počneš da sečeš beli luk, stavi čen ispod širokog dela noža i lagano ga pritisni dlanom dok ne pukne. To će ti pomoći da mnogo lakše skineš ljusku. Ali još važnije – gnječenjem se aktiviraju enzimi u belom luku koji oslobađaju njegov jak, karakterističan miris i ukus. Tako dobijeni luk je intenzivniji i bolje se uklapa u jela. Ako praviš sosove, marinade ili pržiš luk na ulju – ova mala promena u pripremi može ozbiljno da podigne ceo recept."
         },
     ]
 

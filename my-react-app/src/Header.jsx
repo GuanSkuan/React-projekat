@@ -11,7 +11,6 @@ function Header() {
                     <li><Link to="/o-nama">-O nama-</Link></li>
                 </ul>
             </nav>
-            <h1>=DOBRODOŠLI=</h1>
         </header>
     );
 }
