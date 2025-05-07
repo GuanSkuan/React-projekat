@@ -23,6 +23,8 @@ import piletina from './images/piletina.jpg'
 import cia from './images/cia.jpg'
 import pica from './images/pica.jpg'
 
+import { Link } from 'react-router-dom'
+
 function KarticeSaveti() {
 
     const saveti = [
@@ -176,6 +178,11 @@ function KarticeSaveti() {
                         )
                     })}
                 </div>
+
+                <div className='' data-aos="fade-up">
+                    <button><Link to="/recepti">-Pogledaj recepte-</Link></button> 
+                </div>
+
             </section>
         </>
     );

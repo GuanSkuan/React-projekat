@@ -254,7 +254,7 @@ h2 {
   width: 52vh;
   height: 52vh;
   border-radius: 50%;
-  transition: transform 0.4s ease;
+  transition: left 0.4s ease;
 }
 
 .pilula h3 {
@@ -291,7 +291,7 @@ h2 {
 }
 
 .pilula:hover img {
-  transform: translateX(261%);
+  left: calc(100% - 52vh - 4vh);
 }
 
 .pilula:hover h3 {
@@ -302,13 +302,12 @@ h2 {
   opacity: 1;
 }
 
-/*DUGME ZA GALERIJU*/
+/*DUGMICI*/
 
 button {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
   font-size: 1rem;
   color: white;
   background-color: #eb949e;
@@ -324,6 +323,16 @@ button {
 button:hover {
   width: 20vw;
   background-color: #68d3d1;
+}
+
+button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 100%;
 }
 
 /*FOOTER*/
@@ -461,4 +470,13 @@ footer div {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+/*FIX ZA RECEPTI STRANICU*/
+
+.recepti-deo {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 0;
+  gap: 10vh;
 }

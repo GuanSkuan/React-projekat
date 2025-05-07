@@ -1,11 +1,12 @@
-import rucakk from './images/uvodna2.jpg'
+import rucak from './images/uvodna2.jpg'
 import slikatest from './images/uvodna1.jpg'
 import random from './images/dezert.jpg'
+
 function Preview() {
     
     const pilule = [
         {
-            slika: rucakk,
+            slika: rucak,
             naslov:"-BOGUS SA MNOGO BOGUSA UNUTRA-",
             opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus"
         },
