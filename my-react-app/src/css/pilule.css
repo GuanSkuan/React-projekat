@@ -1,0 +1,69 @@
+/*PILULE*/
+
+.pilula {
+    position: relative;
+    color: #00000089;
+    background-color: #f7f7f7;
+    width: 90vw;
+    height: 60vh;
+    margin: auto;
+    border-radius: 1000px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
+    transition: transform 0.3s ease;
+}
+
+.pilula img {
+    top: 4vh;
+    left: 4vh;
+    object-fit: cover;
+    position: absolute;
+    width: 52vh;
+    height: 52vh;
+    border-radius: 50%;
+    transition: left 0.4s ease;
+}
+
+.pilula h3 {
+    display: flex;
+    position: absolute;
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    right: 5%;
+    left: 40%;
+    height: 100%;
+    margin: 0;
+    transition: opacity 0.3s ease;
+}
+
+.pilula p {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    right: 40%;
+    left: 10%;
+    height: 100%;
+    margin: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.pilula:hover {
+    transform: scale(1.1);
+}
+
+.pilula:hover img {
+    left: calc(100% - 52vh - 4vh);
+}
+
+.pilula:hover h3 {
+    opacity: 0;
+}
+
+.pilula:hover p {
+    opacity: 1;
+}

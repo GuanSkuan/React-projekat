@@ -1,0 +1,31 @@
+/*UVOD NA POCETNOJ*/
+
+.uvodni-deo {
+    background-color: #f7d7dc;
+    padding: 2% 0;
+}
+
+/*RECEPTI - PREVIEW*/
+
+.preview-deo {
+    background-color: #f7d7dc;
+}
+  
+.crvena-plava {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0;
+    gap: 10vh;
+    background: linear-gradient(to bottom, #f7d7dc, rgba(0, 0, 0, 0));
+}
+
+/*SAVETI - PREVIEW*/
+
+.plava {
+    padding-top: 2%;
+  }
+  
+  .plava-crvena {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #f7d7dc);
+  }
+  

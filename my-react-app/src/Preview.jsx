@@ -54,7 +54,7 @@ function Preview() {
                 })}
             </section>
 
-            <div className='' data-aos="fade-up">
+            <div data-aos="fade-up">
                 <button>-Pogledaj sve-</button> 
             </div>                 
         </>

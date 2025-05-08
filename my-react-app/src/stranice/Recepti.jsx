@@ -6,7 +6,9 @@ function Recepti() {
   return (
     <>
       <Header />
-      <KarticeRecepti />
+      <section className="plava-crvena">
+        <KarticeRecepti />
+      </section>
       <Footer />
     </>
   );

@@ -1,0 +1,67 @@
+/*SAVETI*/
+
+.saveti-deo {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0;
+    gap: 10vh;
+}
+
+.pravougaonik {
+    display: flex;
+    color: #00000089;
+    background-color: transparent;
+    width: 90vw;
+    height: 60vh;
+    margin: 0 auto;
+    transition: 0.3s ease;
+}
+
+.pravougaonik:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.pravougaonik:hover {
+    transform: scale(1.05);
+}
+
+.pravougaonik img {
+    object-fit: cover;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
+}
+
+.pravougaonik-tekst {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #f7f7f7;
+    border-radius: 100px;
+    padding: 3% 5%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
+}
+
+.pravougaonik-tekst h3 {
+    display: flex;
+    flex: 0.2;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.pravougaonik-tekst p {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

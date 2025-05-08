@@ -1,0 +1,90 @@
+/*NAVIGACIJA*/
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none; 
+    margin: 0;
+    padding: 2vh 0;
+    transition: 0.4s;
+    border-radius: 100px;
+}
+  
+header ul:hover {
+    background-color: #f7d7dc;
+}
+
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #eb949e;
+    border-radius: 100px;
+    width: 10vw;
+    height: 5vh;
+    transition: 0.4s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header a:hover {
+    width: 20vw;
+    background-color: #68d3d1;
+}
+
+/*FOOTER*/
+
+.kraj {
+    background-color: #f7d7dc;
+    padding: 2%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: #434343;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 1000px;
+    transition: 0.3s;
+}
+
+footer:hover {
+    transform: scale(1.03);
+}
+
+footer ul {
+    list-style: none;
+    line-height: 2.2;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 100px;
+    transition: 0.3s;
+    width: 10vw;
+}
+
+footer .prva-vrsta a:hover {
+    background-color: #eb949e;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer .druga-vrsta a:hover {
+    color: white;
+    background-color: #68d3d1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer div {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    color: #828282;
+}
