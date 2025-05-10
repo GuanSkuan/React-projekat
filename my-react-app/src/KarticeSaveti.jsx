@@ -22,7 +22,7 @@ function KarticeSaveti() {
 
                         return(
                             <div className="pravougaonik" key={index}>
-                                <img src={savet.slika} alt={'Slika ${index}'} data-aos={animacija1}/>
+                                <img src={savet.slika} alt={`Slika ${index}`} data-aos={animacija1}/>
                                 <div className='pravougaonik-tekst' data-aos={animacija2}>
                                     <h3>{savet.naslov}</h3>
                                     <p>{savet.opis}</p>                                    

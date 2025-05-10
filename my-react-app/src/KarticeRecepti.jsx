@@ -6,7 +6,7 @@ function KarticeRecepti() {
     return(
         <>
             <h1>=RECEPTI=</h1>
-            <p className='uvodni-tekst' data-aos="fade-right">
+            <p className='uvodni-tekst' data-aos="fade-left">
                 Na ovom sajtu pronaći ćete veliki broj recepata – od brzih obroka za radne dane,
                 do specijaliteta koji će oduševiti goste. Pored klasične pretrage recepata po nazivima i
                 kategorijama, nudimo vam i jedinstvenu mogućnost da unesete sastojke koje imate kod kuće,
@@ -23,7 +23,7 @@ function KarticeRecepti() {
                     return(
                         <div key={index} data-aos={vrstaAnimacije}>
                             <div className="pilula">
-                                <img src={pilule.slika} alt='Slika ${index}' />
+                                <img src={pilule.slika} alt={`Slika ${index}`} />
                                 <h3>{pilule.naslov}</h3>
                                 <p>{pilule.opis}</p>
                             </div>

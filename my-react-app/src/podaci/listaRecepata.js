@@ -6,128 +6,244 @@ const pilule = [
     {
         slika: rucak,
         naslov:"-BOGUS SA MNOGO BOGUSA UNUTRA-",
-        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus"
+        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:slikatest,
         naslov: "-NEKI DRUGI BOGUS, TAKODJE SA BOGUSIMA UNUTRA-",
-        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi"
+        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:random,
         naslov: "-NIKAD DOSTA BOGUSA-",
-        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO"
+        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika: rucak,
         naslov:"-BOGUS SA MNOGO BOGUSA UNUTRA-",
-        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus"
+        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:slikatest,
         naslov: "-NEKI DRUGI BOGUS, TAKODJE SA BOGUSIMA UNUTRA-",
-        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi"
+        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:random,
         naslov: "-NIKAD DOSTA BOGUSA-",
-        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO"
+        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika: rucak,
         naslov:"-BOGUS SA MNOGO BOGUSA UNUTRA-",
-        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus"
+        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:slikatest,
         naslov: "-NEKI DRUGI BOGUS, TAKODJE SA BOGUSIMA UNUTRA-",
-        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi"
+        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:random,
         naslov: "-NIKAD DOSTA BOGUSA-",
-        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO"
+        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika: rucak,
         naslov:"-BOGUS SA MNOGO BOGUSA UNUTRA-",
-        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus"
+        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:slikatest,
         naslov: "-NEKI DRUGI BOGUS, TAKODJE SA BOGUSIMA UNUTRA-",
-        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi"
+        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:random,
         naslov: "-NIKAD DOSTA BOGUSA-",
-        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO"
+        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika: rucak,
         naslov:"-BOGUS SA MNOGO BOGUSA UNUTRA-",
-        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus"
+        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:slikatest,
         naslov: "-NEKI DRUGI BOGUS, TAKODJE SA BOGUSIMA UNUTRA-",
-        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi"
+        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:random,
         naslov: "-NIKAD DOSTA BOGUSA-",
-        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO"
-    },
-    {
-        slika:slikatest,
-        naslov: "-NEKI DRUGI BOGUS, TAKODJE SA BOGUSIMA UNUTRA-",
-        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi"
-    },
-    {
-        slika:random,
-        naslov: "-NIKAD DOSTA BOGUSA-",
-        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO"
+        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika: rucak,
         naslov:"-BOGUS SA MNOGO BOGUSA UNUTRA-",
-        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus"
+        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:slikatest,
         naslov: "-NEKI DRUGI BOGUS, TAKODJE SA BOGUSIMA UNUTRA-",
-        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi"
+        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:random,
         naslov: "-NIKAD DOSTA BOGUSA-",
-        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO"
-    },
-    {
-        slika:slikatest,
-        naslov: "-NEKI DRUGI BOGUS, TAKODJE SA BOGUSIMA UNUTRA-",
-        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi"
-    },
-    {
-        slika:random,
-        naslov: "-NIKAD DOSTA BOGUSA-",
-        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO"
+        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika: rucak,
         naslov:"-BOGUS SA MNOGO BOGUSA UNUTRA-",
-        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus"
+        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:slikatest,
         naslov: "-NEKI DRUGI BOGUS, TAKODJE SA BOGUSIMA UNUTRA-",
-        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi"
+        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
     {
         slika:random,
         naslov: "-NIKAD DOSTA BOGUSA-",
-        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO"
+        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
     },
+    {
+        slika: rucak,
+        naslov:"-BOGUS SA MNOGO BOGUSA UNUTRA-",
+        opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
+    },
+    {
+        slika:slikatest,
+        naslov: "-NEKI DRUGI BOGUS, TAKODJE SA BOGUSIMA UNUTRA-",
+        opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
+    },
+    {
+        slika:random,
+        naslov: "-NIKAD DOSTA BOGUSA-",
+        opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO",
+        vrsta: "ručak",
+        vreme: "30 minuta",
+        sastojci: ["sastojak1", "sastojak2", "sastojak3"],
+        priprema: "opis pripreme",
+        kalorije: 500,
+    },
+
 ]
 
 export default pilule;

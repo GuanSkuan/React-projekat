@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import pasta from './images/pasta.jpg'
 import seckanje from './images/seckanje.jpg'
 import beliLuk from './images/beli luk.jpg'
@@ -55,7 +57,7 @@ function Preview2() {
                     })}
                 </div>
                 <div data-aos="fade-up">
-                    <button>-Pogledaj sve-</button> 
+                    <button><Link to={"/saveti"}>-Pogledaj sve-</Link></button> 
                 </div>
             </section>        
         </>

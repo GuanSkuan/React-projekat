@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import rucak from './images/uvodna2.jpg'
 import slikatest from './images/uvodna1.jpg'
 import random from './images/dezert.jpg'
@@ -55,7 +57,7 @@ function Preview() {
             </section>
 
             <div data-aos="fade-up">
-                <button>-Pogledaj sve-</button> 
+                <button><Link to={"/recepti"}>-Pogledaj sve-</Link></button> 
             </div>                 
         </>
     );
