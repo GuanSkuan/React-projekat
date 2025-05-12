@@ -71,6 +71,22 @@ footer a {
     width: 10vw;
 }
 
+footer .naziv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #eb949e;
+}
+
+footer .naziv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #68d3d1;
+}
+
 footer .prva-vrsta a:hover {
     background-color: #eb949e;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -85,6 +101,6 @@ footer .druga-vrsta a:hover {
 footer div {
     position: absolute;
     bottom: 10%;
-    right: 10%;
+    right: 9%;
     color: #828282;
 }

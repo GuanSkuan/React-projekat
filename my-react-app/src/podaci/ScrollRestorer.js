@@ -9,6 +9,8 @@ export default function ScrollRestorer({ children }) {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0 });
 
+    //Fix za AOS animacije, bez ovoga se sve animacije aktiviraju pre vremena
+    
     const timeout = setTimeout(() => {
       AOS.refreshHard();
       setReady(true);

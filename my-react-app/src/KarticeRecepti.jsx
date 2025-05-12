@@ -21,7 +21,7 @@ function KarticeRecepti() {
                     const vrstaAnimacije = index % 2 === 0 ? "fade-right" : "fade-left";
                 
                     return(
-                        <div key={index} data-aos={vrstaAnimacije}>
+                        <div key={pilule.id} data-aos={vrstaAnimacije}>
                             <div className="pilula">
                                 <img src={pilule.slika} alt={`Slika ${index}`} />
                                 <h3>{pilule.naslov}</h3>

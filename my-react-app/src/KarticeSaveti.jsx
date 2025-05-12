@@ -21,7 +21,7 @@ function KarticeSaveti() {
                         const animacija2 = index % 2 === 0 ? "fade-left" : "fade-right";
 
                         return(
-                            <div className="pravougaonik" key={index}>
+                            <div className="pravougaonik" key={saveti.id}>
                                 <img src={savet.slika} alt={`Slika ${index}`} data-aos={animacija1}/>
                                 <div className='pravougaonik-tekst' data-aos={animacija2}>
                                     <h3>{savet.naslov}</h3>
