@@ -67,3 +67,37 @@
 .pilula:hover p {
     opacity: 1;
 }
+
+/*PODESAVANJE POZICIJE NEKIH SLIKA RECEPATA*/
+
+.pilula[data-recept-id="4"] img, .pilula[data-recept-id="5"] img {
+    object-position: center 85%;
+}
+
+.pilula[data-recept-id="24"] img {
+    object-position: center 75%;
+}
+
+.pilula[data-recept-id="20"] img {
+    object-position: center 35%;
+}
+
+.pilula[data-recept-id="7"] img {
+    object-position: center 0%;
+}
+
+/*PODESAVANJE POZICIJE NEKIH SLIKA SAVETA*/
+
+.pravougaonik[data-savet-id="18"] img {
+    object-position: center 100%;
+}
+
+.pravougaonik[data-savet-id="11"] img,
+.pravougaonik[data-savet-id="17"] img,
+.pravougaonik[data-savet-id="13"] img {
+    object-position: center 75%;
+}
+
+.pravougaonik[data-savet-id="14"] img {
+    object-position: center 60%;
+}

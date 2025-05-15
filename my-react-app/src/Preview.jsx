@@ -1,28 +1,7 @@
 import { Link } from 'react-router-dom'
-
-import rucak from './images/uvodna2.jpg'
-import slikatest from './images/uvodna1.jpg'
-import random from './images/dezert.jpg'
+import pilule from './podaci/listaRecepata.js'
 
 function Preview() {
-    
-    const pilule = [
-        {
-            slika: rucak,
-            naslov:"-BOGUS SA MNOGO BOGUSA UNUTRA-",
-            opis: "bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus bogus"
-        },
-        {
-            slika:slikatest,
-            naslov: "-NEKI DRUGI BOGUS, TAKODJE SA BOGUSIMA UNUTRA-",
-            opis: "neki drugi bogusi neki drugi bogusi neki drugi bogusi neki drugi bogusi"
-        },
-        {
-            slika:random,
-            naslov: "-NIKAD DOSTA BOGUSA-",
-            opis: "JOSSSSSSSSS BOGUSA AAAAAAAAAA BOGUSI SVUGDEEEEEEE TOOOOOOOO"
-        },
-    ]
 
     return(
         <>
@@ -40,14 +19,14 @@ function Preview() {
             </section>
 
             <section className="crvena-plava">
-                {pilule.map((pilule, index) => {
+                {pilule.filter(pilule => pilule.id <= 3).map((pilule, index) => {
 
                     const vrstaAnimacije = index % 2 === 0 ? "fade-right" : "fade-left";
                 
                     return(
-                        <div key={index} data-aos={vrstaAnimacije}>  {/*dodat div jer AOS unistava scale iz nekog razloga ako se ne odradi ovako*/}
+                        <div key={pilule} data-aos={vrstaAnimacije}>  {/*dodat div jer AOS unistava scale iz nekog razloga ako se ne odradi ovako*/}
                             <div className="pilula">
-                                <img src={pilule.slika} alt='Slika ${index}' />
+                                <img src={pilule.slika} alt='${pilule.naslov}' />
                                 <h3>{pilule.naslov}</h3>
                                 <p>{pilule.opis}</p>
                             </div>

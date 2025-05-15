@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #d0ecef;
+  overflow-x: hidden;
 }
 
 /*NASLOVI*/

@@ -22,7 +22,7 @@ function KarticeRecepti() {
                 
                     return(
                         <div key={pilule.id} data-aos={vrstaAnimacije}>
-                            <div className="pilula">
+                            <div className="pilula" data-recept-id={pilule.id}>
                                 <img src={pilule.slika} alt={`Slika ${index}`} />
                                 <h3>{pilule.naslov}</h3>
                                 <p>{pilule.opis}</p>
