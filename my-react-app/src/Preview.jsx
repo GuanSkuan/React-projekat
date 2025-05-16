@@ -7,13 +7,14 @@ function Preview() {
         <>
             <section className="preview-deo">
                 <h1>=RECEPTI=</h1>
-                <p className='uvodni-tekst' data-aos="fade-right">
-                    Na ovom sajtu pronaći ćete veliki broj recepata – od brzih obroka za radne dane,
-                    do specijaliteta koji će oduševiti goste. Pored klasične pretrage recepata po nazivima i
-                    kategorijama, nudimo vam i jedinstvenu mogućnost da unesete sastojke koje imate kod kuće,
-                    a naš sistem će vam odmah predložiti recepte koji ih sadrže. Bilo da ste početnik
-                    u kuhinji ili iskusni kuvar u potrazi za inspiracijom, ovde ćete pronaći praktične savete,
-                    korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu. Prijatno kuvanje!
+                <p className='uvodni-tekst' data-aos="fade-left">
+                    Na stranici "Recepti" otkrićete raznovrsnu kolekciju jela – od jednostavnih,
+                    svakodnevnih recepata do ukusnih specijaliteta za posebne prilike.
+                    Svaki recept je pažljivo opisan sa jasnim koracima i detaljima koji će vam pomoći da
+                    kuvanje bude uspešno i bez stresa. Možete lako pretraživati recepte po nazivu, kategoriji,
+                    ili čak na osnovu sastojaka koje imate kod kuće. Samo označite šta imate u frižideru,
+                    a mi ćemo vam predložiti šta možete da pripremite. Bilo da kuvate za sebe,
+                    porodicu ili goste, ovde ćete pronaći inspiraciju za svaki obrok.
                 </p>
                 <h2 className='glavni'>-NEKI OD MNOGOBROJNIH RECEPATA-</h2>
             </section>

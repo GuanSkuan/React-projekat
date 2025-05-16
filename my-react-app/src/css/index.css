@@ -2,6 +2,7 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 1.3vw;
 }
 
 body { 
@@ -17,7 +18,7 @@ h1 {
   display: flex;
   justify-content: center;
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 4.5vw;
   background: linear-gradient(to right, #e22030, #00aeac);
   background-size: 200%; 
   color: white;
@@ -32,6 +33,7 @@ h2 {
   display: flex;
   justify-content: center;
   font-weight: bold;
+  font-size: 2.2vw;
   background: linear-gradient(to right, #e22030, #00aeac);
   background-size: 200%; 
   color: white;
@@ -68,9 +70,9 @@ h2 {
   color: #00000089;
   background-color: #f7f7f7;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-  border-radius: 100px;
+  border-radius: 1000px;
   margin: 0 20%;
-  padding: 10px 5%;
+  padding: 1% 5%;
 }
 
 /*DUGMICI*/
@@ -79,7 +81,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1vw;
   color: white;
   background-color: #eb949e;
   border: none;

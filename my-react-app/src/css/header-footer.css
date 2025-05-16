@@ -18,6 +18,7 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.1vw;
     text-decoration: none;
     color: white;
     background-color: #eb949e;
@@ -57,13 +58,16 @@ footer:hover {
 footer ul {
     list-style: none;
     line-height: 2.2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 1vw;
     text-decoration: none;
     color: white;
     border-radius: 100px;
@@ -72,18 +76,10 @@ footer a {
 }
 
 footer .naziv1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3rem;
     color: #eb949e;
 }
 
 footer .naziv2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3rem;
     color: #68d3d1;
 }
 
@@ -93,13 +89,13 @@ footer .prva-vrsta a:hover {
 }
 
 footer .druga-vrsta a:hover {
-    color: white;
     background-color: #68d3d1;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 footer div {
     position: absolute;
+    font-size: medium;
     bottom: 10%;
     right: 9%;
     color: #828282;
