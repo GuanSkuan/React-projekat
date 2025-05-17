@@ -22,13 +22,13 @@ function KarticeRecepti() {
                     const vrstaAnimacije = index % 2 === 0 ? "fade-right" : "fade-left";
                 
                     return(
-                        <div key={pilule.id} data-aos={vrstaAnimacije}>
+                        <Link to={`/recepti/${pilule.id}`} key={pilule.id} data-aos={vrstaAnimacije}>
                             <div className="pilula" data-recept-id={pilule.id}>
                                 <img src={pilule.slika} alt={`Slika ${index}`} />
                                 <h3>{pilule.naslov}</h3>
                                 <p>{pilule.opis}</p>
                             </div>
-                        </div>
+                        </Link>
                     )
                 })}                    
             </div>

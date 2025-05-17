@@ -1,0 +1,16 @@
+.recept {
+    display: flex;
+}
+
+.recept img {
+    object-fit: cover;
+    width: 60vw;
+    height: 60vw;
+    border-radius: 100px;
+}
+
+.recept-uvod {
+    background-color: #f7f7f7;
+    border-radius: 100px;
+    color: #00000089;
+}

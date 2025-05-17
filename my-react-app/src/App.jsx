@@ -8,6 +8,7 @@ import Pocetna from "./stranice/Pocetna";
 import Recepti from "./stranice/Recepti";
 import Saveti from "./stranice/Saveti";
 import ONama from "./stranice/ONama";
+import SoloRecept from "./stranice/SoloRecept";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Pocetna />} />
           <Route path="/recepti" element={<Recepti />} />
+          <Route path="/recepti/:id" element={<SoloRecept />} />
           <Route path="/saveti" element={<Saveti />} />
           <Route path="/o-nama" element={<ONama />} />
         </Routes>
