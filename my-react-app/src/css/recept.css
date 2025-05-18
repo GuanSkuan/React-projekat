@@ -1,16 +1,46 @@
-.recept {
+.recept-uvod {
     display: flex;
+    flex-direction: column;
+    margin: 2vw;
 }
 
-.recept img {
+.recept-uvod img {
     object-fit: cover;
-    width: 60vw;
-    height: 60vw;
+    height: 100vh;
+    border-radius: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.slika-opis-sastojci {
+    display: flex;
+    color: #00000089;
     border-radius: 100px;
 }
 
-.recept-uvod {
+.opis-sastojci {
+    margin-left: 2vw;
+}
+
+.opis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: calc(50vh - 2vw);
+    margin-bottom: 2vw;
+    padding: 0 2vw;
     background-color: #f7f7f7;
     border-radius: 100px;
-    color: #00000089;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.sastojci {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+    background-color: #f7f7f7;
+    border-radius: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
 }

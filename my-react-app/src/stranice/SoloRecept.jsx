@@ -10,14 +10,16 @@ function SoloRecept() {
     }
 
     return (
-        <div className="recept">
-            <img src={recept.slika} alt={recept.naslov} />
-            <div className="recept-uvod">
-                <h2>{recept.naslov}</h2>
-                <p>{recept.opis}</p>
+        <div className="recept-uvod">
+            <h1>{recept.naslov}</h1>
+            <div className="slika-opis-sastojci">
+                <img src={recept.slika} alt={recept.naslov} />
+                <div className="opis-sastojci">
+                    <div className="opis">{recept.opis}</div>
+                    <div className="sastojci">ovde ce biti sastojci</div>
+                </div>
             </div>
         </div>
-
     )
 }
 
