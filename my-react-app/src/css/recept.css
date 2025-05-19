@@ -1,7 +1,13 @@
+/*SVE BEZ PRIPREME I SAVETA*/
+
+.recept-uvod h1 {
+    margin: 0 0 2vw;
+}
+
 .recept-uvod {
     display: flex;
     flex-direction: column;
-    margin: 2vw;
+    margin: 2vw 2vw 0;
 }
 
 .recept-uvod img {
@@ -17,7 +23,7 @@
     border-radius: 100px;
 }
 
-.opis-sastojci {
+.opis-sastojci-kalorije {
     margin-left: 2vw;
 }
 
@@ -26,7 +32,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: calc(50vh - 2vw);
+    height: calc(40vh - 2vw);
     margin-bottom: 2vw;
     padding: 0 2vw;
     background-color: #f7f7f7;
@@ -34,13 +40,89 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
+.sastojci-kalorije {
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+}
+
 .sastojci {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    border-radius: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
+}
+
+
+.sastojci li {
+    list-style: none;
+    padding: 0;
+}
+
+.kalorije-porcije-vreme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: calc(40% - 2vw);
+    padding: 3vw 0;
+    margin-left: 2vw;
+    background-color: #f7f7f7;
+    border-radius: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.brojevi {
+    background-color: #eb949e;
+    color: white;
+    border-radius: 100px;
+    width: 8vw;
+    text-align: center;
+    font-size: 2vw;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/*PRIPREMA I SAVET*/
+
+.priprema-padding {
+    padding: 2vw 2vw 0;
+}
+
+.priprema-savet {
+    display: flex;
+    height: 50vh;
+    margin-bottom: 2vw;
+    color: #00000089;
+}
+
+.priprema {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 50vh;
+    height: 100%;
+    width: 60vw;
+    padding: 0 4vw;
+    margin-right: 2vw;
     background-color: #f7f7f7;
     border-radius: 100px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.savet-za-pripremu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    height: 100%;
+    background-color: #f7f7f7;
+    border-radius: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }

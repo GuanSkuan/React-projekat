@@ -30,7 +30,7 @@ const pilule = [
         naslov:"-PHILLY CHEESESTEAK-",
         opis: "Sočno belo meso pažljivo začinjeno i proprženo sa paprikom, crnim i belim lukom, spaja se sa topljenim kačkavaljem u hrskavom somunu. Svaki zalogaj odiše bogatstvom ukusa zahvaljujući kombinaciji začina kao što su bosiljak, origano, chilli flakes i biber, dok puter daje završnu glatkoću i aromu. Inspirisano legendarnim Philly cheesesteakom, ali prilagođeno lokalnim ukusima, ovo jelo je idealan spoj klasičnog američkog sendviča i domaće kuhinje. Savršeno za ručak koji će te zasititi i oduševiti u svakom zalogaju.",
         vrsta: "ručak",
-        vreme: "40 minuta",
+        vreme: "40min",
         sastojci: [
             { naziv: "belo meso", kolicina: 150, jedinica: "gr" },
             { naziv: "kačkavalj", kolicina: 50, jedinica: "gr" },
@@ -55,7 +55,7 @@ const pilule = [
         naslov: "-PASTA SA FETOM I ČERI PARADAJZOM-",
         opis: "Savršeno kremasta i bogata pasta napravljena od pečenog čeri paradajza i rastopljenog feta sira, spaja jednostavne sastojke u eksploziju mediteranskih ukusa. Svaki zalogaj sadrži slatkoću paradajza, slanost fete i aromatične note belog luka u prahu, origana i bosiljka. Maslinovo ulje povezuje sve u jedinstvenu teksturu, dok se kuvanje u rerni pretvara u pravo kulinarsko uživanje. Ovaj obrok je lagan, ali zasitan, idealan za ručak koji donosi toplotu i svežinu u isto vreme – bez puno truda, a sa maksimalnim ukusom.",
         vrsta: "ručak",
-        vreme: "60 minuta",
+        vreme: "60min",
         sastojci: [
             { naziv: "pasta", kolicina: 170, jedinica: "gr" },
             { naziv: "čeri paradajz", kolicina: 500, jedinica: "gr" },
@@ -77,7 +77,7 @@ const pilule = [
         naslov: "-OVSENA KAŠA SA VOĆEM-",
         opis: "Ovsena kaša sa voćem je idealan doručak za one koji žele brz, zdrav i ukusan početak dana. Kombinacija kremastog jogurta i ovsenih pahuljica daje savršenu bazu, dok med, cimet i kakao unose slatke i tople note u svaku kašiku. Chia i lanene semenke dodaju hranljivu vrednost i teksturu, a voće – banana i borovnice – unose osvežavajuću slatkoću i boje. Sve zajedno stvara savršen balans između laganog i zasitnog obroka koji se priprema za svega nekoliko minuta, a energiju daje za ceo dan.",
         vrsta: "doručak",
-        vreme: "5 minuta",
+        vreme: "5min",
         sastojci: [
             { naziv: "ovsene pahuljice", kolicina: 30, jedinica: "gr" },
             { naziv: "jogurt", kolicina: 200, jedinica: "gr" },
@@ -99,7 +99,7 @@ const pilule = [
         naslov:"-GRIZ SA KAKAOM I VOĆEM-",
         opis: "Griz sa kakaom i voćem je brz, ukusan i kremast doručak koji pruža savršenu ravnotežu energije. Toplo mleko i griz stvaraju bogatu, svilenu teksturu, dok kakao unosi bogat čokoladni ukus, a med dodaje slatkoću. Banana daje prirodnu sočnost i svežinu, čineći ovo jelo ne samo ukusnim već i hranljivim. Ovaj doručak je savršeno jednostavan, ali zasitan, idealan za početak dana ili kao brza užina, koja vas puni do sledećeg obroka.",
         vrsta: "doručak",
-        vreme: "10 minuta",
+        vreme: "10min",
         sastojci: [
             { naziv: "griz", kolicina: 40, jedinica: "gr" },
             { naziv: "mleko", kolicina: 300, jedinica: "ml" },
@@ -118,7 +118,7 @@ const pilule = [
         naslov: "-TOST SA JAJIMA I PARADAJZOM-",
         opis: "Tost sa jajima i paradajzom je jednostavan, ali ukusan obrok koji je savršen za večeru. Hleb se tosti na puteru, dok se jaja prže do savršenog stepena, sa bogatim kajmakom koji dodaje kremastu teksturu. Paradajz unosi svežinu, a začini poput origana, bibera i čili pahuljica daju jelu dodatnu dimenziju ukusa. Ovaj obrok je brz i hranljiv, idealan za one koji žele ukusan obrok bez puno pripreme, a opet sa svim potrebnim nutrijentima.",
         vrsta: "večera",
-        vreme: "10 minuta",
+        vreme: "10min",
         sastojci: [
             { naziv: "hleb", kolicina: 2, jedinica: "kom" },
             { naziv: "jaje", kolicina: 2, jedinica: "kom" },
@@ -140,7 +140,7 @@ const pilule = [
         naslov: "-HRSKAVA PILEĆA KRILCA-",
         opis: "Hrsava pileća krilca su savršen izbor za ljubitelje mesa koji žele uživati u hrskavom i ukusnom obroku. Krilca se pripremaju uz prah za pecivo, koji im daje dodatnu hrskavost, dok so i biber obogaćuju njihov prirodan ukus. Jednostavno za pripremu i savršeno za ručak, ovo jelo pruža pravu mešavinu ukusa i tekstura, idealno za ljubitelje pilećeg mesa.",
         vrsta: "ručak",
-        vreme: "60 minuta",
+        vreme: "60min",
         sastojci: [
             { naziv: "krilca", kolicina: 8, jedinica: "kom" },
             { naziv: "prašak za pecivo", kolicina: 4, jedinica: "gr" },
@@ -157,7 +157,7 @@ const pilule = [
         naslov:"-POHOVANO BELO MESO-",
         opis: "Pohovano belo meso je klasik koji nikada ne izlazi iz mode. Piletina je uvaljana u brašno, jaje i panko prezle, a potom pržena do savršene hrskavosti. So, biber, origano i chilli flakes dodaju savršenu začinsku notu, dok puter doprinosi bogatstvu okusa. Ovo jelo je ukusan i zasitan ručak, koji će zadovoljiti i najizbirljivije gurmane.",
         vrsta: "ručak",
-        vreme: "40 minuta",
+        vreme: "40min",
         sastojci: [
             { naziv: "piletina", kolicina: 200, jedinica: "gr" },
             { naziv: "panko prezle", kolicina: 50, jedinica: "gr" },
@@ -179,7 +179,7 @@ const pilule = [
         naslov: "-BURITO SA BELIM MESOM-",
         opis: "Ovaj ukusan burito sa belim mesom je savršen obrok za večeru, sa laganim i osvežavajućim sastojcima poput piletine, humusa, paradajza, krastavca i začina. Tortilja u koju se sve upakuje dodaje savršen balans, a začini poput origana i chilli flakes-a daju mu dodatnu dozu ukusa. Brzo se sprema i može da bude savršen obrok za one koji žele nešto ukusno, ali i hranljivo. Svi sastojci zajedno čine ovaj burito izuzetno bogatim ukusima, dok istovremeno pruža dobar izvor proteina i zdravih masti.",
         vrsta: "večera",
-        vreme: "30 minuta",
+        vreme: "30min",
         sastojci: [
             { naziv: "piletina", kolicina: 150, jedinica: "gr" },
             { naziv: "humus", kolicina: 20, jedinica: "gr" },
@@ -203,7 +203,7 @@ const pilule = [
         naslov: "-BURGER-",
         opis: "Ovaj sočan i ukusan burger savršen je za brzu večeru, sa sočnim junećim mesom, svežim povrćem i začinima koji podižu sve ukuse. Piletina je jednostavno začinjena sa soli, biberom i origano, dok crni luk, beli luk i paradajz dodaju svežinu. Kiseli krastavčići i tucana paprika daju mu dodatnu aromu i začinjenost. Somun, u kojem se sve servira, doprinosi bogatom teksturalnom kontrastu, čineći ovaj burger savršenim obrokom za ljubitelje brze hrane.",
         vrsta: "večera",
-        vreme: "15 minuta",
+        vreme: "15min",
         sastojci: [
             { naziv: "juneće mleveno meso", kolicina: 200, jedinica: "gr" },
             { naziv: "somun", kolicina: 1, jedinica: "kom" },
@@ -226,7 +226,7 @@ const pilule = [
         naslov:"-PICA-",
         opis: "Pica je omiljeni obrok mnogih, a u ovom receptu kombinuju se sočni kulen, pečurke, kiseli krastavčići i bogat kačkavalj, sve na hrskavom domaćem testu. Uz dodatak origana, bosiljka i začina, ova pizza donosi savršen balans ukusa. Savršena je za sve ljubitelje italijanske hrane, a može biti idealan obrok za večeru sa prijateljima ili porodicom. Sa bogatstvom sastojaka, lako možete da je podelite u više porcija i uživate u svakom zalogaju.",
         vrsta: "ručak",
-        vreme: "50 minuta",
+        vreme: "50min",
         sastojci: [
             { naziv: "brašno", kolicina: 350, jedinica: "gr" },
             { naziv: "so", kolicina: 6, jedinica: "gr" },
@@ -253,7 +253,7 @@ const pilule = [
         naslov: "-LOSOS I POMFRIT-",
         opis: "Ovaj obrok spaja sočan losos sa hrskavim domaćim pomfritom, uz dodatak limuna za osvežavajući šmek. Prženi krompir u suncokretovom i maslinovom ulju daje savršenu teksturu i ukus, dok soja sos i kečap čine dodatnu dimenziju okusa. Idealno je jelo za uživanje u zdravoj i ukusnoj večeri, a kombinacija lososa i pomfrita čini obrok koji je i ukusan i zasitan.",
         vrsta: "ručak",
-        vreme: "30 minuta",
+        vreme: "30min",
         sastojci: [
             { naziv: "losos", kolicina: 300, jedinica: "gr" },
             { naziv: "krompir", kolicina: 200, jedinica: "gr" },
@@ -276,7 +276,7 @@ const pilule = [
         naslov: "-TOPLI SENDVIČI-",
         opis: "Topli sendviči su savršen izbor za brz, ali ukusan doručak. Hrskavi hleb, rastopljeni kačkavalj, aromatični kečap i začini poput origana čine ovaj sendvič neodoljivim, dok kulen dodaje dodatni sloj bogatog ukusa. Uz malo putera, ovaj jednostavan, a ukusan obrok može biti odličan način da započneš dan sa energijom.",
         vrsta: "doručak",
-        vreme: "10 minuta",
+        vreme: "10min",
         sastojci: [
             { naziv: "hleb", kolicina: 2, jedinica: "kom" },
             { naziv: "kačkavalj", kolicina: 30, jedinica: "gr" },
@@ -295,7 +295,7 @@ const pilule = [
         naslov:"-CHIA PUDING-",
         opis: "Chia puding je ukusan i zdrav dezert koji je brz za pripremu. Chia semenke upijaju mleko i stvaraju želatinastu teksturu, dok med dodaje prirodnu slatkoću. Služeni sa svežim jagodama i komadićima crne čokolade, ovaj puding postaje pravo uživanje u ukusu i hranljivim sastojcima. Idealno je rešenje za desert koji je i ukusan i hranljiv.",
         vrsta: "dezert",
-        vreme: "5 minuta",
+        vreme: "5min",
         sastojci: [
             { naziv: "chia semenke", kolicina: 30, jedinica: "gr" },
             { naziv: "mleko", kolicina: 150, jedinica: "ml" },
@@ -313,7 +313,7 @@ const pilule = [
         naslov: "-PESTO PASTA-",
         opis: "Pesto pasta je jednostavno jelo koje spaja ukuse svežeg bosiljka, začinskog origana i bogatog pesto sosa. Čeri paradajz dodaje svežinu, dok pavlaka za kuvanje daje kremastu teksturu koja čini svaki zalogaj posebnim. Savršeno je za brzi ručak koji je ukusan, zasitan i bogat vitaminima. Idealno je za ljubitelje italijanske kuhinje koji žele da uživaju u jednostavnom, ali punom okusu.",
         vrsta: "ručak",
-        vreme: "20 minuta",
+        vreme: "20min",
         sastojci: [
             { naziv: "pasta", kolicina: 170, jedinica: "gr" },
             { naziv: "pesto", kolicina: 95, jedinica: "gr" },
@@ -334,7 +334,7 @@ const pilule = [
         naslov: "-PASTA SE BELIM MESOM I PEČURKAMA-",
         opis: "Pasta sa belim mesom i pečurkama je ukusno i kremasto jelo koje kombinuje nežno belo meso i bogate pečurke, u savršenom spoju sa kremastom pavlakom za kuvanje. Začini poput origana, bosiljka, i tucane paprike dodaju dubinu okusa, dok pasta upija sve te ukuse. Jelo je brzo, zasitno i idealno za svaki obrok kada želite nešto brzo i ukusanog.",
         vrsta: "ručak",
-        vreme: "40 minuta",
+        vreme: "40min",
         sastojci: [
             { naziv: "belo meso", kolicina: 150, jedinica: "gr" },
             { naziv: "pečurke", kolicina: 200, jedinica: "gr" },
@@ -347,7 +347,7 @@ const pilule = [
             { naziv: "bosiljak", kolicina: 5, jedinica: "gr" },
             { naziv: "origano", kolicina: 5, jedinica: "gr" }
         ],
-        priprema: "opis pripreme",
+        priprema: "Skuvaj pastu u posoljenoj vodi, procedi i sačuvaj malo vode od kuvanja.\n Iseci belo meso i proprži ga na ulju dok ne porumeni. Dodaj seckane pečurke i prži dok ne omekšaju. Ubaci začine (so, biber, tucana paprika, chilli flakes, bosiljak, origano) i kratko proprži. Sipaj pavlaku za kuvanje i krčkaj nekoliko minuta dok se sos ne zgusne. Ubaci pastu, sve promešaj i po potrebi dodaj malo vode od kuvanja da razrediš sos. Služi toplo, po želji uz parmezan ili sveži bosiljak.",
         kalorije: 1153,
         porcije: 2,
     },
@@ -357,7 +357,7 @@ const pilule = [
         naslov:"-CHEESECAKE-",
         opis: "Cheesecake sa malinama je kremasti dezert koji spaja bogatstvo kisele pavlake i slatkoću malina. U osnovi je hrskava kora od mlevene plazme i putera, dok je gornji sloj bogat kremom od Ella sira, slatke pavlake i šećera, sa dodatkom želatina koji daje stabilnost. Na vrhu se nalazi osvežavajući sloj malina, sa malo šećera i vanilin šećera za dodatnu aromu. Savršen spoj bogatog, ali nežnog ukusa i osvežavajuće voćne note malina.",
         vrsta: "dezert",
-        vreme: "80 minuta",
+        vreme: "80min",
         sastojci: [
             { naziv: "mlevena plazma", kolicina: 300, jedinica: "gr" },
             { naziv: "puter", kolicina: 125, jedinica: "gr" },
@@ -381,7 +381,7 @@ const pilule = [
         naslov: "-ČOKOLADNI MUS-",
         opis: "Čokoladni mus je kremasti, bogati dezert savršen za ljubitelje čokolade. Kremasta tekstura se postiže kombinovanjem otopljene crne čokolade sa umućenim jajima i slatkom pavlakom. Puter i šećer u prahu dodaju glatkoću i dodatnu slatkoću. Ovaj mus je idealan za uživanje u malim porcijama, a njegov intenzivan čokoladni ukus je prava poslastica za sve sladokusce.",
         vrsta: "dezert",
-        vreme: "15 minuta",
+        vreme: "15min",
         sastojci: [
             { naziv: "crna čokolada", kolicina: 125, jedinica: "gr" },
             { naziv: "jaja", kolicina: 3, jedinica: "kom" },
@@ -399,7 +399,7 @@ const pilule = [
         naslov: "-CIMET ROLNICE-",
         opis: "Cimet rolnice su ukusan i mirisan dezert koji je savršen za ljubitelje slatkiša i začina. Kvasac, brašno i šećer se kombinuju sa kremastim puterom, cimetom i vanilin ekstraktom da bi se stvorila bogata tekstura i sladak, začinski ukus. Ovaj recept je odličan za svakog ko želi da uživa u svežim i mekanim rolnicama sa bogatim punjenjem, idealnim za doručak ili užinu.",
         vrsta: "dezert",
-        vreme: "60 minuta",
+        vreme: "60min",
         sastojci: [
             { naziv: "kvasac", kolicina: 1, jedinica: "kesica" },
             { naziv: "mleko", kolicina: 350, jedinica: "ml" },
@@ -424,7 +424,7 @@ const pilule = [
         naslov:"-BANANA SPLIT-",
         opis: "Banana Split je ukusan i osvežavajući dezert koji kombinuje sladoled, voće i šlag u savršenoj harmoniji ukusa. U ovoj verziji, osnovu čini sočna banana, na kojoj se nalazi kugla sladoleda od banane, čokolade i vanile, dok je sve preliveno čokoladnim prelivom, šlagom i dekorisano sa nekoliko višanja. Ovaj dezert je brz i jednostavan za pripremu, a istovremeno pruža bogatstvo ukusa koji se savršeno kombinuju u svakom zalogaju. Idealno je kao osvežavajući završetak obroka ili za uživanje u toplim letnjim danima.",
         vrsta: "dezert",
-        vreme: "5 minuta",
+        vreme: "5min",
         sastojci: [
             { naziv: "banana", kolicina: 1, jedinica: "kugla" },
             { naziv: "sladoled banana", kolicina: 1, jedinica: "kugla" },
@@ -444,7 +444,7 @@ const pilule = [
         naslov: "-JUNEĆE ĆUFTE SA PIREOM-",
         opis: "Juneće ćufte sa pireom je klasičan i ukusan obrok koji spaja bogatstvo mesa i kremastu teksturu pire krompira. Juneće meso se meša sa začinima i prezlama, oblikuje u ćufte, a zatim se peče dok ne postane sočno i savršeno začinjeno. Pire krompir je napravljen sa malo mleka i prstohvatom muskatnog oraha, što mu daje dodatnu mekoću i bogatstvo ukusa. Na kraju, sve se preliva paradajz sosom, što dodaje sočnost i blagost ovom jelu. Ovo je savršen obrok za ljubitelje tradicionalne kuhinje.",
         vrsta: "ručak",
-        vreme: "50 minuta",
+        vreme: "50min",
         sastojci: [
             { naziv: "juneće mleveno meso", kolicina: 400, jedinica: "gr" },
             { naziv: "prezle", kolicina: 30, jedinica: "gr" },
@@ -467,7 +467,7 @@ const pilule = [
         naslov: "-STEAK-",
         opis: "Steak je sočan komad mesa, obično biftek, koji je brzo pečen u tiganju sa minimalnim začinima poput soli, bibera i maslinovog ulja. Dodavanje belog luka i ruzmarina doprinosi intenzivnijem ukusu, dok puter na kraju dodaje bogatstvo i sočnost jelu. Ovo jelo je jednostavno, ali ukusno, savršeno za ljubitelje mesa.",
         vrsta: "ručak",
-        vreme: "15 minuta",
+        vreme: "15min",
         sastojci: [
             { naziv: "biftek", kolicina: 300, jedinica: "gr" },
             { naziv: "beli luk", kolicina: 5, jedinica: "čena" },
@@ -487,7 +487,7 @@ const pilule = [
         naslov:"-MAKARONE SA SIROM-",
         opis: "Ovaj recept za makarone sa sirom je brz i ukusan obrok, idealan za večeru. Pasta se kombinuje sa kremastim feta sirom i pavlakom, uz svež paradajz, beli luk i začine kao što su bosiljak i origano, što daje odličnu ravnotežu ukusa. Jednostavno, a vrlo zasitno!",
         vrsta: "večera",
-        vreme: "20 minuta",
+        vreme: "20min",
         sastojci: [
             { naziv: "pasta", kolicina: 170, jedinica: "gr" },
             { naziv: "feta", kolicina: 250, jedinica: "gr" },
@@ -511,7 +511,7 @@ const pilule = [
         naslov: "-TOST SA JAJIMA I AVOKADOM-",
         opis: "Tost sa jajima i avokadom je jednostavan, ukusan i hranljiv doručak koji kombinuje kremasti avokado, bogata jaja i hrskav hleb, sa dodatkom začina koji obogaćuju ukus. Idealno je za početak dana, jer pruža dobar izvor zdravih masti, proteina i vlakana.",
         vrsta: "doručak",
-        vreme: "15 minuta",
+        vreme: "15min",
         sastojci: [
             { naziv: "hleb", kolicina: 2, jedinica: "kom" },
             { naziv: "avokado", kolicina: 1, jedinica: "kom" },
@@ -532,7 +532,7 @@ const pilule = [
         naslov: "-PALAČINKE-",
         opis: "Palačinke su omiljeni dezert koji je jednostavan za pripremu i može se prilagoditi različitim dodacima poput džema, čokolade, voća ili šlaga. Sastojci kao što su brašno, mleko, jaja i voda kombinuju se u glatku smesu koja se prži na tavi s malo ulja, dok vanilin ekstrakt dodaje prijatan miris i ukus. Palačinke su tanje i mekše, idealne za uživanje u kombinaciji sa raznim dodacima po želji. Ovaj brzi i ukusan desert može biti savršen za doručak ili užinu.",
         vrsta: "dezert",
-        vreme: "25 minuta",
+        vreme: "25min",
         sastojci: [
             { naziv: "brašno", kolicina: 200, jedinica: "gr" },
             { naziv: "voda", kolicina: 200, jedinica: "ml" },
