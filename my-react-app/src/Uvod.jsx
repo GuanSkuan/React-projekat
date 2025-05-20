@@ -24,7 +24,7 @@ function Uvod() {
                 ))}
             </section>
             <section className='uvodni-deo'>
-                <p className='uvodni-tekst' data-aos="fade-left">
+                <p className='uvodni-tekst' data-aos="fade-right">
                     Na ovom sajtu pronaći ćete veliki broj recepata – od brzih obroka za radne dane,
                     do specijaliteta koji će oduševiti goste. Pored klasične pretrage recepata po nazivima i
                     kategorijama, nudimo vam i jedinstvenu mogućnost da unesete sastojke koje imate kod kuće,

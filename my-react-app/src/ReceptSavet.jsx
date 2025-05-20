@@ -14,13 +14,14 @@ function ReceptSavet() {
                         {recept.priprema}
                     </div>
                     <div className="savet-za-pripremu">
+                        <h3>-SAVET-</h3>
                         {recept.savet}
                     </div>
                 </div>
             </div>
 
             <div data-aos="fade-up">
-                <button><Link to={"/saveti"}>-Vrati se nazad-</Link></button> 
+                <button><Link to={"/recepti"}>-Vrati se nazad-</Link></button> 
             </div>
         </>
     )

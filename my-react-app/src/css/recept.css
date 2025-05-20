@@ -105,7 +105,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     height: 100%;
     width: 60vw;
     padding: 0 4vw;
@@ -113,16 +112,31 @@
     background-color: #f7f7f7;
     border-radius: 100px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    white-space: pre-line;                          /*omogucava na \n iz js fajla radi*/
 }
 
 .savet-za-pripremu {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex: 1;
+    padding: 0 3vw;
     height: 100%;
     background-color: #f7f7f7;
     border-radius: 100px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    white-space: pre-line;
+}
+
+.savet-za-pripremu h3 {
+    display: flex;
+    position: absolute;
+    font-size: 3vw;
+    justify-content: center;
+    top: 8%;
+    height: 100%;
+    margin: 0;
+    transition: opacity 0.3s ease;
 }
