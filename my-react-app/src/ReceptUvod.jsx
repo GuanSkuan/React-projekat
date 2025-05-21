@@ -13,20 +13,20 @@ function ReceptUvod() {
         <div className="recept-uvod">
             <h1>{recept.naslov}</h1>
             <div className="slika-opis-sastojci">
-                <img src={recept.slika} alt={recept.naslov} />
+                <img src={recept.slika} alt={recept.naslov} data-aos="fade-right"/>
                 <div className="opis-sastojci-kalorije">
-                    <div className="opis">
+                    <div className="opis" data-aos="fade-left">
                         {recept.opis}
                     </div>
                     <div className="sastojci-kalorije">
-                        <ul className="sastojci">
+                        <ul className="sastojci" data-aos="fade-up">
                             {recept.sastojci.map((sastojak, index) => (
                                 <li key={index}>
                                     {sastojak.naziv}: {sastojak.kolicina}{sastojak.jedinica}
                                 </li>
                             ))}
                         </ul>
-                        <div className="kalorije-porcije-vreme">
+                        <div className="kalorije-porcije-vreme" data-aos="fade-left">
                             <div>
                                 <strong>Kalorije:</strong>
                             </div>

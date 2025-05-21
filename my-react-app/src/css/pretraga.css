@@ -1,0 +1,47 @@
+.pretraga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw auto 0;
+    position: relative;
+    width: 20vw;
+}
+
+.pretraga input {
+    width: 100%;
+    height: 5vh;
+    border: none;
+    border-radius: 100px;
+    padding: 0 1vw;
+    color: inherit;
+    font-size: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease;
+}
+
+.pretraga input:focus {
+    outline: none;
+    transform: scale(1.05);
+}
+
+.pretraga img {
+    position: absolute;
+    right: 0.5vw;
+    width: 1.3vw;
+    opacity: 0.5;
+}
+
+/*ANIMACIJA ZA PRAZNU PRETRAGU*/
+
+.animacija {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.animacija h2 {
+    width: auto;
+    padding: 0 4vw;
+}

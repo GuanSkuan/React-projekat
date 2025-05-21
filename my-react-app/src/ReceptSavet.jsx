@@ -10,10 +10,10 @@ function ReceptSavet() {
         <>
             <div className="priprema-padding">
                 <div className="priprema-savet">
-                    <div className="priprema">
+                    <div className="priprema" data-aos="fade-right">
                         {recept.priprema}
                     </div>
-                    <div className="savet-za-pripremu">
+                    <div className="savet-za-pripremu" data-aos="fade-left">
                         <h3>-SAVET-</h3>
                         {recept.savet}
                     </div>

@@ -1,6 +1,7 @@
 /*PILULE*/
 
 .pilula {
+    display: flex;
     position: relative;
     color: #00000089;
     background-color: #f7f7f7;
@@ -30,9 +31,10 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    top: 50%;
+    transform: translateY(-50%);        /*sluzi za centriranje teksta po sredini*/
     right: 5%;
     left: 40%;
-    height: 100%;
     margin: 0;
     transition: opacity 0.3s ease;
 }
@@ -44,9 +46,10 @@
     align-items: center;
     justify-content: center;
     font-size: 1.3vw;
+    top: 50%;
+    transform: translateY(-50%);
     right: 40%;
     left: 10%;
-    height: 100%;
     margin: 0;
     opacity: 0;
     transition: opacity 0.3s ease;

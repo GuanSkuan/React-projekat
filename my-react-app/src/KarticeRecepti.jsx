@@ -5,7 +5,6 @@ function KarticeRecepti() {
 
     return(
         <>
-            <h1>=RECEPTI=</h1>
             <p className='uvodni-tekst' data-aos="fade-left">
                 Na stranici "Recepti" otkrićete raznovrsnu kolekciju jela – od jednostavnih,
                 svakodnevnih recepata do ukusnih specijaliteta za posebne prilike.
@@ -22,13 +21,13 @@ function KarticeRecepti() {
                     const vrstaAnimacije = index % 2 === 0 ? "fade-right" : "fade-left";
                 
                     return(
-                        <Link to={`/recepti/${pilule.id}`} key={pilule.id} data-aos={vrstaAnimacije}>
-                            <div className="pilula" data-recept-id={pilule.id}>
+                        <div key={pilule.id} data-aos={vrstaAnimacije}>
+                            < Link to={`/recepti/${pilule.id}`} className="pilula" data-recept-id={pilule.id}>
                                 <img src={pilule.slika} alt={`Slika ${index}`} />
                                 <h3>{pilule.naslov}</h3>
                                 <p>{pilule.opis}</p>
-                            </div>
-                        </Link>
+                            </Link>
+                        </div>
                     )
                 })}                    
             </div>

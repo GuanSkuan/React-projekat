@@ -25,13 +25,13 @@ function Preview() {
                     const vrstaAnimacije = index % 2 === 0 ? "fade-right" : "fade-left";
                 
                     return(
-                        <Link to={`/recepti/${pilule.id}`} key={pilule.id} data-aos={vrstaAnimacije}>  {/*dodat div jer AOS unistava scale iz nekog razloga ako se ne odradi ovako*/}
-                            <div className="pilula">
-                                <img src={pilule.slika} alt='${pilule.naslov}' />
+                        <div key={pilule.id} data-aos={vrstaAnimacije}>
+                            < Link to={`/recepti/${pilule.id}`} className="pilula" data-recept-id={pilule.id}>
+                                <img src={pilule.slika} alt={`Slika ${index}`} />
                                 <h3>{pilule.naslov}</h3>
                                 <p>{pilule.opis}</p>
-                            </div>
-                        </Link>
+                            </Link>
+                        </div>
                     )
                 })}
             </section>

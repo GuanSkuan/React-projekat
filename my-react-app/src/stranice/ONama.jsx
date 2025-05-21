@@ -6,7 +6,9 @@ function ONama() {
   return (
     <>
       <Header />
-
+      <section className="plava-crvena">
+        <h1>=O NAMA=</h1>
+      </section>
       <Footer />
     </>
   );
