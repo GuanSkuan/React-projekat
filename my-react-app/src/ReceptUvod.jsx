@@ -1,4 +1,6 @@
 import { useParams } from "react-router-dom";
+import CountUp from 'react-countup';
+
 import podaci from './podaci/listaRecepata.js';
 
 function ReceptUvod() {
@@ -31,19 +33,19 @@ function ReceptUvod() {
                                 <strong>Kalorije:</strong>
                             </div>
                             <div className="brojevi">
-                                <strong>{recept.kalorije}</strong>
+                                <strong><CountUp end={recept.kalorije} duration={4} /></strong>
                             </div>
                             <div>
                                 <strong>Porcije:</strong>
                             </div>
                             <div className="brojevi">
-                                <strong>{recept.porcije}</strong>
+                                <strong><CountUp end={recept.porcije} duration={4} /></strong>
                             </div>
                             <div>
                                 <strong>Vreme:</strong>
                             </div>
                             <div className="brojevi">
-                                <strong>{recept.vreme}</strong>
+                                <strong><CountUp end={recept.vreme} duration={4} />min</strong>
                             </div>
                         </div>
                     </div>

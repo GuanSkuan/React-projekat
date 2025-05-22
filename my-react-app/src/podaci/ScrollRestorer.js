@@ -18,7 +18,7 @@ export default function ScrollRestorer({ children }) {
 
     return () => {
       clearTimeout(timeout);
-      setReady(false); 
+      setReady(false);
     };
   }, [pathname]);
 

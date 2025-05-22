@@ -29,6 +29,7 @@
     right: 0.5vw;
     width: 1.3vw;
     opacity: 0.5;
+    z-index: 10;
 }
 
 /*ANIMACIJA ZA PRAZNU PRETRAGU*/

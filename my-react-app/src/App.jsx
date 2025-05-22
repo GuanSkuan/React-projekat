@@ -19,18 +19,18 @@ function App() {
     });
   }, []);
 
-  return(
-    <Router>
-      <ScrollRestorer>
-        <Routes>
-          <Route path="/" element={<Pocetna />} />
-          <Route path="/recepti" element={<Recepti />} />
-          <Route path="/recepti/:id" element={<SoloRecept />} />
-          <Route path="/saveti" element={<Saveti />} />
-          <Route path="/o-nama" element={<ONama />} />
-        </Routes>
-      </ScrollRestorer>
-    </Router>
+  return (
+      <Router>
+        <ScrollRestorer>
+          <Routes>
+            <Route path="/" element={<Pocetna />} />
+            <Route path="/recepti" element={<Recepti />} />
+            <Route path="/recepti/:id" element={<SoloRecept />} />
+            <Route path="/saveti" element={<Saveti />} />
+            <Route path="/o-nama" element={<ONama />} />
+          </Routes>
+        </ScrollRestorer>
+      </Router>
   );
 }
 
