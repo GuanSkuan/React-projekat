@@ -11,7 +11,7 @@ function OpisFirme() {
     <>
       <div className='uvod-o-nama'>
         <p className='uvodni-tekst' data-aos="fade-right">
-            Naš sajt je nastao 2019. godine iz iskrene ljubavi prema kuvanju.
+            Sajt "Cook Drive" je nastao 2019. godine iz iskrene ljubavi prema kuvanju.
             Grupa prijatelja i zaljubljenika u kulinarstvo odlučila je da podeli svoje recepte
             i iskustva sa širom zajednicom, verujući da dobra hrana spaja ljude. Od tada, sajt
             je postao mesto gde svako može pronaći inspiraciju – bilo da ste početnik koji tek

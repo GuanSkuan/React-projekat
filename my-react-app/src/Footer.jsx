@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import sertifikat from './images/sertifikat.png'
+
 function Footer() {
     return(
         <section className="kraj">
@@ -13,10 +15,10 @@ function Footer() {
                 </ul>
                 <ul className="druga-vrsta">
                     <li className="naziv2"><strong>-OBROCI-</strong></li>
-                    <li><Link to="">-Doručak-</Link></li>
-                    <li><Link to="">-Ručak-</Link></li>
-                    <li><Link to="">-Večera-</Link></li>
-                    <li><Link to="">-Dezert-</Link></li>
+                    <li><Link to="/recepti" state={{ vrsta: "doručak" }}>-Doručak-</Link></li>
+                    <li><Link to="/recepti" state={{ vrsta: "ručak" }}>-Ručak-</Link></li>
+                    <li><Link to="/recepti" state={{ vrsta: "večera" }}>-Večera-</Link></li>
+                    <li><Link to="/recepti" state={{ vrsta: "dezert" }}>-Dezert-</Link></li>
                 </ul>
                 <ul className="prva-vrsta">
                     <li className="naziv1"><strong>-DRUŠTVENE MREŽE-</strong></li>
@@ -29,11 +31,11 @@ function Footer() {
                 </ul>
                 <ul className="druga-vrsta">
                     <li className="naziv2"><strong>-KONTAKT-</strong></li>
-                    <li><a href="">-Sertifikat-</a></li>
+                    <li><a href={sertifikat} target="_blank">-Sertifikat-</a></li>
                     <li><Link to="/o-nama">-O nama-</Link></li>
                     <li><Link to="">-066 123 4567-</Link></li>
                 </ul>
-                <div>&copy; {new Date().getFullYear()} NomNomNomNom</div>
+                <div>&copy; {new Date().getFullYear()} Cook Drive</div>
             </footer>
         </section>
     );

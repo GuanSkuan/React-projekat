@@ -1,26 +1,33 @@
+import { Link } from 'react-router-dom'
+
 import dorucak from './images/uvodna1.jpg'
 import rucak from './images/uvodna2.jpg'
 import vecera from './images/vecera.jpg'
 import dezert from './images/dezert.jpg'
+import logo from './images/favicon-logo.png'
 
 function Uvod() {
     const krugovi = [
-        {slika: dorucak, text: "-Doručak-"},
-        {slika: dezert, text: "-Večera-"},
-        {slika: rucak, text: "-Ručak-"},
-        {slika: vecera, text: "-Dezert-"},
+        {slika: dorucak, text: "-Doručak-", vrsta: "doručak"},
+        {slika: dezert, text: "-Dezert-", vrsta: "dezert"},
+        {slika: rucak, text: "-Ručak-", vrsta: "ručak"},
+        {slika: vecera, text: "-Večera-", vrsta: "večera"},
     ]
 
     return(
          <>
-            <h1>=DOBRODOŠLI=</h1>
+            <div className='logo-naslov-logo'>
+                <img className='logo1' src={logo} alt="logo"/>
+                <img className='logo2' src={logo} alt="logo"/>
+                <h1>=DOBRODOŠLI U COOK DRIVE=</h1>
+            </div>
            <section className='kontejner-krugova'>
                 {krugovi.map((krug, index) => (
-                        <div key={index} className='krug' data-id={index} >
-                            <img src={krug.slika} alt={"Slika ${index}"}/>
+                        <Link to="/recepti" state={{ vrsta: krug.vrsta }} key={index} className='krug' data-id={index} >
+                            <img src={krug.slika} alt={`Slika ${index}`}/>
                             <div className={`linija linija-${index}`}></div>
                             <p>{krug.text}</p>
-                        </div>
+                        </Link>
                 ))}
             </section>
             <section className='uvodni-deo'>

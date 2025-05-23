@@ -116,3 +116,27 @@ button a {
   padding: 2% 0;
   gap: 10vh;
 }
+
+/*UBACIVANJE LOGO-a */
+
+.logo-recept-logo {
+  display: flex;
+  position: relative;
+}
+
+.logo1 {
+  display: flex;
+  position: absolute;
+  left: 5vw;
+  height: 8vw;
+  width: auto;  
+  z-index: 100;
+}
+.logo2 {
+  display: flex;
+  position: absolute;
+  right: 5vw;
+  height: 8vw;
+  width: auto;
+  z-index: 100;
+}

@@ -46,3 +46,21 @@
     width: auto;
     padding: 0 4vw;
 }
+
+/*DUGMICI ZA PRETRAGU*/
+
+.filteri {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.filteri button {
+    margin-top: 2vw;
+    height: 2.5vw;
+}
+
+
+.filteri button.aktivno {
+    background-color: #68d3d1;
+}
