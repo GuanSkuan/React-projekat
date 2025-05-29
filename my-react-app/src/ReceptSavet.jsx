@@ -21,7 +21,7 @@ function ReceptSavet() {
             </div>
 
             <div data-aos="fade-up">
-                <button><Link to={"/recepti"}>-Vrati se nazad-</Link></button> 
+                <button><Link to={"/recepti"}>-Svi recepti-</Link></button> 
             </div>
         </>
     )

@@ -117,26 +117,9 @@ button a {
   gap: 10vh;
 }
 
-/*UBACIVANJE LOGO-a */
+/*Z INDEX ZA NASLOV NA O NAMA STRANICI*/
 
-.logo-recept-logo {
-  display: flex;
+.dodati-saveti h1 {
   position: relative;
-}
-
-.logo1 {
-  display: flex;
-  position: absolute;
-  left: 5vw;
-  height: 8vw;
-  width: auto;  
-  z-index: 100;
-}
-.logo2 {
-  display: flex;
-  position: absolute;
-  right: 5vw;
-  height: 8vw;
-  width: auto;
   z-index: 100;
 }

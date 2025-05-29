@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-      <Router>
+      <Router basename="/React-projekat">
         <ScrollRestorer>
           <Routes>
             <Route path="/" element={<Pocetna />} />

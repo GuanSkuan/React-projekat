@@ -4,7 +4,6 @@ import dorucak from './images/uvodna1.jpg'
 import rucak from './images/uvodna2.jpg'
 import vecera from './images/vecera.jpg'
 import dezert from './images/dezert.jpg'
-import logo from './images/favicon-logo.png'
 
 function Uvod() {
     const krugovi = [
@@ -15,13 +14,9 @@ function Uvod() {
     ]
 
     return(
-         <>
-            <div className='logo-naslov-logo'>
-                <img className='logo1' src={logo} alt="logo"/>
-                <img className='logo2' src={logo} alt="logo"/>
-                <h1>=DOBRODOŠLI U COOK DRIVE=</h1>
-            </div>
-           <section className='kontejner-krugova'>
+        <>
+            <h1>=DOBRODOŠLI U COOK DRIVE=</h1>
+            <section className='kontejner-krugova'>
                 {krugovi.map((krug, index) => (
                         <Link to="/recepti" state={{ vrsta: krug.vrsta }} key={index} className='krug' data-id={index} >
                             <img src={krug.slika} alt={`Slika ${index}`}/>
@@ -40,7 +35,7 @@ function Uvod() {
                     korisne trikove i ideje koje će obogatiti vašu svakodnevnu ishranu. Prijatno kuvanje!
                 </p>
             </section>
-         </>
+        </>
 
     )
 }

@@ -7,13 +7,9 @@ function ReceptUvod() {
     const { id } = useParams();
     const recept = podaci.find(pilula => pilula.id === parseInt(id));
 
-    if(!recept) {
-        return <h2>Recept nije pronađen.</h2>;
-    }
-
     return (
         <div className="recept-uvod">
-            <h1>{recept.naslov}</h1>
+            <h1 data-aos="fade-down">{recept.naslov}</h1>
             <div className="slika-opis-sastojci">
                 <img src={recept.slika} alt={recept.naslov} data-aos="fade-right"/>
                 <div className="opis-sastojci-kalorije">

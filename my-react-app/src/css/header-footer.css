@@ -1,5 +1,18 @@
 /*NAVIGACIJA*/
 
+header {
+    position: relative;
+}
+
+header .logo {
+    display: flex;
+    position: absolute;
+    height: 10vh;
+    width: auto;
+    top: 0;
+    left: 2vw;
+}
+
 header ul {
     display: flex;
     justify-content: space-evenly;
