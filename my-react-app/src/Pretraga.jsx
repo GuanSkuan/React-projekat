@@ -12,6 +12,10 @@ const Pretraga = () => {
 
     const location = useLocation();
 
+    const osisan = (text) => {
+        return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "dj");
+    }
+
     useEffect(() => {
         if (location.state?.vrsta) {
             setVrstaObroka(location.state.vrsta);
@@ -19,13 +23,13 @@ const Pretraga = () => {
     }, [location.state]);
 
     const filtriraniRecepti = recepti.filter((recept) => {
-        const text = pretraga.toLowerCase();
+        const text = osisan(pretraga);
 
         const tekstualniMatch =
-            recept.naslov.toLowerCase().includes(text) ||
-            recept.opis.toLowerCase().includes(text) ||
+            osisan(recept.naslov).includes(text) ||
+            osisan(recept.opis).includes(text) ||
             recept.sastojci.some((sastojak) =>
-                sastojak.naziv.toLowerCase().includes(text)
+                osisan(sastojak.naziv).includes(text)
             );
 
         const vrstaMatch = !vrstaObroka || recept.vrsta === vrstaObroka;
