@@ -186,8 +186,9 @@
         width: 95vw;
         height: auto;
         margin: 0 auto 10px;
-        padding: 40px 0;
+        padding: 40px 20px;
         border-radius: 60px;
+        box-sizing: border-box;
     }
 
     .sastojci-kalorije {
@@ -232,16 +233,18 @@
         width: 95vw;
         height: auto;
         margin: 0 auto 10px;
-        padding: 20px 0;
+        padding: 20px 20px;
         border-radius: 60px;
+        box-sizing: border-box;
     }
 
     .priprema-savet .savet-za-pripremu {
         width: 95vw;
         height: auto;
         margin: 0 auto 10px;
-        padding: 20px 0;
+        padding: 20px 20px;
         border-radius: 60px;
+        box-sizing: border-box;
     }
     
     /*FOOTER*/
