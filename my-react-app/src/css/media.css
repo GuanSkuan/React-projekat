@@ -1,0 +1,308 @@
+@media (max-width: 1080px) {
+
+    /*OPSTE STVARI*/
+
+    :root {
+        font-size: 14px;
+    }
+
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    header .logo {
+        height: 60px;
+        left: 0;
+    }
+
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+
+    button {
+        position: relative;
+        width: 30%;
+        height: 30px;
+        font-size: 14px;
+        z-index: 100;
+    }
+
+    .uvodni-tekst {
+        margin: 5%;
+        padding: 5%;
+        border-radius: 60px;
+    }
+
+    /*NAVIGACIJA*/
+
+    .main-nav {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #68d3d1;
+        transition: 0.4s ease;
+    }
+
+    .telefon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .telefon a {
+        width: 50%;
+        height: 30px;
+        font-size: 14px;
+        text-align: center;
+        background-color: #eb949e;
+        color: white;
+        border-radius: 100px;
+        margin-bottom: 10px;
+    }
+
+    /* UVODNA STRANICA */
+
+    .prvi-naslov {
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        height: 50px;
+    }
+
+    .kontejner-krugova {
+        display: none;
+    }
+
+    .uvodni-deo {
+        background-color: #d0ecef;
+    }
+
+    .preview-deo {
+        background-color: #d0ecef;
+    }
+
+    /* PILULE */
+    .crvena-plava {
+        gap: 20px;
+        background: none;
+    }
+
+    .pilula {
+        height: 200px;
+        position: relative;
+    }
+
+    .pilula img {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        height: 160px;
+        width: 160px;
+    }
+
+    .recepti-deo {
+        gap: 20px;
+    }
+
+    .pilula h3 {
+        left: 50%;
+    }
+
+    /*SAVETI*/
+    
+    .saveti-deo {
+        gap: 20px;
+    }
+
+    .pravougaonik:nth-child(even) {
+        flex-direction: column;
+    }
+    
+    .pravougaonik {
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        height: auto;
+    }
+
+    .pravougaonik-tekst {
+        border-radius: 40px;
+    }
+
+    .pravougaonik-tekst p {
+        font-size: 14px;
+    }
+
+    .pravougaonik img {
+        width: 100%;
+        height: 300px;
+        border-radius: 40px;
+    }
+
+    /*O NAMA*/
+
+    .grafik-kolicina {
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    /*POJEDINACNI RECEPTI*/
+
+    .slika-opis-sastojci {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .slika-opis-sastojci img {
+        width: 95vw;
+        margin: 0 auto 10px;
+        height: 40vh;
+        border-radius: 60px;
+    }
+
+    .opis-sastojci-kalorije {
+        margin: 0;
+    }
+
+    .opis-sastojci-kalorije .opis{
+        width: 95vw;
+        height: auto;
+        margin: 0 auto 10px;
+        padding: 40px 0;
+        border-radius: 60px;
+    }
+
+    .sastojci-kalorije {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sastojci-kalorije .sastojci {
+        width: 95vw;
+        height: auto;
+        margin: 0 auto 10px;
+        padding: 20px 0;
+        border-radius: 60px;
+    }
+
+    .kalorije-porcije-vreme {
+        width: 95vw;
+        height: 100%;
+        margin: 0 auto;
+        border-radius: 60px;
+    }
+
+    .kalorije-porcije-vreme .brojevi {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        width: 80px;
+        font-size: 18px;
+    }
+
+    .priprema-savet {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .priprema-savet .priprema {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 95vw;
+        height: auto;
+        margin: 0 auto 10px;
+        padding: 20px 0;
+        border-radius: 60px;
+    }
+
+    .priprema-savet .savet-za-pripremu {
+        width: 95vw;
+        height: auto;
+        margin: 0 auto 10px;
+        padding: 20px 0;
+        border-radius: 60px;
+    }
+    
+    /*FOOTER*/
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        border-radius: 60px;
+    }
+    
+    footer ul {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    footer a {
+        font-size: 14px;
+        width: auto;
+    }
+
+    footer div {
+        right: 20px;
+        bottom: 20px;
+        font-size: 13px;
+    }
+
+    /*PRETRAGA*/
+
+    .filteri {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filteri button {
+        width: 90%;
+        height: 30px;
+    }
+
+    .pretraga {
+        width: 90%;
+    }
+
+    .pretraga input {
+        width: 100%;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .pretraga img {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .slika-opis-sastojci img {
+        height: 70vh;
+    }
+
+    .pravougaonik img {
+        height: 500px;
+    }
+}

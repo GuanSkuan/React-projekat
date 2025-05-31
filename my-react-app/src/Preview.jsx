@@ -16,7 +16,7 @@ function Preview() {
                     a mi ćemo vam predložiti šta možete da pripremite. Bilo da kuvate za sebe,
                     porodicu ili goste, ovde ćete pronaći inspiraciju za svaki obrok.
                 </p>
-                <h2 className='glavni'>-NEKI OD MNOGOBROJNIH RECEPATA-</h2>
+                <h2 className='glavni'>-NEKI OD RECEPATA-</h2>
             </section>
 
             <section className="crvena-plava">

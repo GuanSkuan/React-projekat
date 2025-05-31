@@ -11,6 +11,7 @@ header .logo {
     width: auto;
     top: 0;
     left: 2vw;
+    z-index: 1000;
 }
 
 header ul {
@@ -45,6 +46,10 @@ header a {
 header a:hover {
     width: 20vw;
     background-color: #68d3d1;
+}
+
+.burger-menu {
+  display: none;
 }
 
 /*FOOTER*/

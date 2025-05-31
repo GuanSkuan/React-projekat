@@ -15,7 +15,7 @@ function Uvod() {
 
     return(
         <>
-            <h1>=DOBRODOŠLI U COOK DRIVE=</h1>
+            <h1 className='prvi-naslov'>=DOBRODOŠLI U COOK DRIVE=</h1>
             <section className='kontejner-krugova'>
                 {krugovi.map((krug, index) => (
                         <Link to="/recepti" state={{ vrsta: krug.vrsta }} key={index} className='krug' data-id={index} >

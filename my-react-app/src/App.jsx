@@ -13,10 +13,12 @@ import SoloRecept from "./stranice/SoloRecept";
 function App() {
 
   useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: true,
-    });
+    if (window.innerWidth >= 1024) {
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+    }
   }, []);
 
   return (
